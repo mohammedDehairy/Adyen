@@ -15,6 +15,7 @@ final class DefaultAPIClient: APIClient {
         self.executer = executer
     }
     
+    @discardableResult
     func fetch<T>(resource: APIResource<T>, deliverOn: DispatchQueue, completion: @escaping ((Result<T, Error>) -> Void)) -> Cancelable {
         return executer.execute(request: resource.request) { result, response in
             deliverOn.async {

@@ -10,13 +10,13 @@ import UIKit
 import MapKit
 import NotificationBannerSwift
 
-private class PlaceAnnotation: MKPointAnnotation {
+class PlaceAnnotation: MKPointAnnotation {
     var identifier: String?
 }
 
 class PlacesViewController: UIViewController, MKMapViewDelegate {
     private var viewModel: PlacesViewModel
-    private let mapView: MKMapView = {
+    let mapView: MKMapView = {
         let mapView = MKMapView(frame: CGRect.zero)
         mapView.showsUserLocation = true
         return mapView

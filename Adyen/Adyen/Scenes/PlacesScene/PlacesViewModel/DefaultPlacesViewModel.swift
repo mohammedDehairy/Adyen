@@ -33,7 +33,7 @@ final class DefaultPlacesViewModel: PlacesViewModel {
     
     func didChangeRegion(region: MKCoordinateRegion) {
         currentQuery?.cancel()
-        let query = PlaceQuery(region: region)
+        let query = PlaceQuery(region: region, limit: 60)
         currentQuery = store.get(with: query) {[weak self] result in
             self?.handle(result: result)
             self?.currentQuery = nil
@@ -50,10 +50,6 @@ final class DefaultPlacesViewModel: PlacesViewModel {
     }
     
     func didSelect(place: PlaceModel) {
-        
-    }
-    
-    func didSelectPlace(at index: Int) {
         
     }
 }

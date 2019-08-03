@@ -18,7 +18,7 @@ final class DefaultLocationProvider: NSObject, LocationProvider, CLLocationManag
         isUpdating = true
         locationManager.desiredAccuracy = kCLLocationAccuracyKilometer
         locationManager.delegate = self
-        locationManager.requestLocation()
+        locationManager.requestWhenInUseAuthorization()
         locationManager.startUpdatingLocation()
     }
     

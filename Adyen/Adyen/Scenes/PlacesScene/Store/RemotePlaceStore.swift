@@ -20,6 +20,7 @@ final class RemotePlaceStore: PlaceStore {
         self.clientApi = clientApi
     }
     
+    @discardableResult
     func get(with query: PlaceQuery, completion: @escaping ((Result<[PlaceModel], Error>) -> Void)) -> Cancelable {
         let urlStr = RemotePlaceURLBuilder().build(query: query)
         guard let url = URL(string: urlStr) else {

@@ -11,6 +11,7 @@ import MapKit
 
 struct PlaceQuery {
     let region: MKCoordinateRegion
+    let limit: Int
 }
 
 protocol PlaceStore {

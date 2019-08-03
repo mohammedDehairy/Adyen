@@ -10,12 +10,37 @@
 		31A13C8CCB0B6C2666A0CF36 /* libPods-Adyen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99960F8F698F698D424D6A68 /* libPods-Adyen.a */; };
 		3D0ACC2622F5D9AA00AFB158 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC2522F5D9AA00AFB158 /* LocationProvider.swift */; };
 		3D0ACC2822F5D9E200AFB158 /* DefaultLocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC2722F5D9E200AFB158 /* DefaultLocationProvider.swift */; };
+		3D0ACC2C22F6012100AFB158 /* DefaultPlacesViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC2B22F6012100AFB158 /* DefaultPlacesViewModelTest.swift */; };
+		3D0ACC2D22F6014C00AFB158 /* DefaultPlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB3D9422F5AE2200EED25D /* DefaultPlacesViewModel.swift */; };
+		3D0ACC2F22F6017200AFB158 /* PlaceStoreMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC2E22F6017200AFB158 /* PlaceStoreMock.swift */; };
+		3D0ACC3022F6018600AFB158 /* PlaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDE922F5A19A0001A821 /* PlaceStore.swift */; };
+		3D0ACC3122F6019900AFB158 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDEB22F5A24C0001A821 /* PlaceModel.swift */; };
+		3D0ACC3222F601A400AFB158 /* RequestExecuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDDD22F599D70001A821 /* RequestExecuter.swift */; };
+		3D0ACC3422F6028500AFB158 /* LocationProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC3322F6028500AFB158 /* LocationProviderMock.swift */; };
+		3D0ACC3522F6029300AFB158 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC2522F5D9AA00AFB158 /* LocationProvider.swift */; };
+		3D0ACC3622F607F200AFB158 /* PlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB3D9122F5AD8800EED25D /* PlacesViewModel.swift */; };
+		3D0ACC3A22F6090100AFB158 /* RemotePlaceStoreTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC3922F6090100AFB158 /* RemotePlaceStoreTest.swift */; };
+		3D0ACC3B22F6090900AFB158 /* RemotePlaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDED22F5A2940001A821 /* RemotePlaceStore.swift */; };
+		3D0ACC3C22F6091200AFB158 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDE122F59C560001A821 /* APIClient.swift */; };
+		3D0ACC3D22F6093300AFB158 /* RemotePlaceURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDF122F5A72B0001A821 /* RemotePlaceURLBuilder.swift */; };
+		3D0ACC3F22F6094300AFB158 /* APIClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC3E22F6094300AFB158 /* APIClientMock.swift */; };
+		3D0ACC4022F6096500AFB158 /* APIResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDE322F59C8F0001A821 /* APIResource.swift */; };
+		3D0ACC4122F60BF900AFB158 /* PlaceModelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDEF22F5A6B60001A821 /* PlaceModelParser.swift */; };
+		3D0ACC4322F60EA500AFB158 /* RemotePlaceURLBuilderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC4222F60EA500AFB158 /* RemotePlaceURLBuilderTest.swift */; };
+		3D0ACC4522F612D600AFB158 /* PlaceModelParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC4422F612D600AFB158 /* PlaceModelParserTest.swift */; };
+		3D0ACC4722F6135600AFB158 /* test_places_success.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D0ACC4622F6135600AFB158 /* test_places_success.json */; };
+		3D0ACC4A22F6156D00AFB158 /* PlacesViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC4922F6156D00AFB158 /* PlacesViewControllerTest.swift */; };
+		3D0ACC4B22F6158300AFB158 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB3D9722F5B2C000EED25D /* PlacesViewController.swift */; };
+		3D0ACC4D22F615AA00AFB158 /* PlacesViewModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC4C22F615AA00AFB158 /* PlacesViewModelMock.swift */; };
+		3D0ACC5022F61FF900AFB158 /* DefaultAPIClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC4F22F61FF900AFB158 /* DefaultAPIClientTest.swift */; };
+		3D0ACC5122F6200B00AFB158 /* DefaultAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDE522F59D320001A821 /* DefaultAPIClient.swift */; };
+		3D0ACC5322F6203700AFB158 /* RequestExecuterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC5222F6203700AFB158 /* RequestExecuterMock.swift */; };
+		3D0ACC5522F622BE00AFB158 /* test_places_error.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D0ACC5422F622BE00AFB158 /* test_places_error.json */; };
 		3D51DDBB22F599840001A821 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDBA22F599840001A821 /* AppDelegate.swift */; };
 		3D51DDBD22F599840001A821 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDBC22F599840001A821 /* ViewController.swift */; };
 		3D51DDC022F599840001A821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D51DDBE22F599840001A821 /* Main.storyboard */; };
 		3D51DDC222F599860001A821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D51DDC122F599860001A821 /* Assets.xcassets */; };
 		3D51DDC522F599860001A821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D51DDC322F599860001A821 /* LaunchScreen.storyboard */; };
-		3D51DDD022F599860001A821 /* AdyenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDCF22F599860001A821 /* AdyenTests.swift */; };
 		3D51DDDE22F599D70001A821 /* RequestExecuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDDD22F599D70001A821 /* RequestExecuter.swift */; };
 		3D51DDE022F59AC00001A821 /* URLSession+RequestExecuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDDF22F59AC00001A821 /* URLSession+RequestExecuter.swift */; };
 		3D51DDE222F59C560001A821 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDE122F59C560001A821 /* APIClient.swift */; };
@@ -47,6 +72,19 @@
 		069A69803255AE98E1EE8E87 /* Pods-AdyenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdyenTests.release.xcconfig"; path = "Target Support Files/Pods-AdyenTests/Pods-AdyenTests.release.xcconfig"; sourceTree = "<group>"; };
 		3D0ACC2522F5D9AA00AFB158 /* LocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
 		3D0ACC2722F5D9E200AFB158 /* DefaultLocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultLocationProvider.swift; sourceTree = "<group>"; };
+		3D0ACC2B22F6012100AFB158 /* DefaultPlacesViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPlacesViewModelTest.swift; sourceTree = "<group>"; };
+		3D0ACC2E22F6017200AFB158 /* PlaceStoreMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceStoreMock.swift; sourceTree = "<group>"; };
+		3D0ACC3322F6028500AFB158 /* LocationProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProviderMock.swift; sourceTree = "<group>"; };
+		3D0ACC3922F6090100AFB158 /* RemotePlaceStoreTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotePlaceStoreTest.swift; sourceTree = "<group>"; };
+		3D0ACC3E22F6094300AFB158 /* APIClientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientMock.swift; sourceTree = "<group>"; };
+		3D0ACC4222F60EA500AFB158 /* RemotePlaceURLBuilderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotePlaceURLBuilderTest.swift; sourceTree = "<group>"; };
+		3D0ACC4422F612D600AFB158 /* PlaceModelParserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModelParserTest.swift; sourceTree = "<group>"; };
+		3D0ACC4622F6135600AFB158 /* test_places_success.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test_places_success.json; sourceTree = "<group>"; };
+		3D0ACC4922F6156D00AFB158 /* PlacesViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewControllerTest.swift; sourceTree = "<group>"; };
+		3D0ACC4C22F615AA00AFB158 /* PlacesViewModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewModelMock.swift; sourceTree = "<group>"; };
+		3D0ACC4F22F61FF900AFB158 /* DefaultAPIClientTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAPIClientTest.swift; sourceTree = "<group>"; };
+		3D0ACC5222F6203700AFB158 /* RequestExecuterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestExecuterMock.swift; sourceTree = "<group>"; };
+		3D0ACC5422F622BE00AFB158 /* test_places_error.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test_places_error.json; sourceTree = "<group>"; };
 		3D51DDB722F599840001A821 /* Adyen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adyen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D51DDBA22F599840001A821 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D51DDBC22F599840001A821 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,7 +93,6 @@
 		3D51DDC422F599860001A821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D51DDC622F599860001A821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D51DDCB22F599860001A821 /* AdyenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdyenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D51DDCF22F599860001A821 /* AdyenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdyenTests.swift; sourceTree = "<group>"; };
 		3D51DDD122F599860001A821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D51DDDD22F599D70001A821 /* RequestExecuter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestExecuter.swift; sourceTree = "<group>"; };
 		3D51DDDF22F59AC00001A821 /* URLSession+RequestExecuter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+RequestExecuter.swift"; sourceTree = "<group>"; };
@@ -109,9 +146,64 @@
 			isa = PBXGroup;
 			children = (
 				3D0ACC2522F5D9AA00AFB158 /* LocationProvider.swift */,
+				3D0ACC3322F6028500AFB158 /* LocationProviderMock.swift */,
 				3D0ACC2722F5D9E200AFB158 /* DefaultLocationProvider.swift */,
 			);
 			path = LocationProvider;
+			sourceTree = "<group>";
+		};
+		3D0ACC2922F600F900AFB158 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				3D0ACC3822F608E800AFB158 /* PlacesScene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		3D0ACC2A22F6010500AFB158 /* PlacesViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3D0ACC2B22F6012100AFB158 /* DefaultPlacesViewModelTest.swift */,
+			);
+			path = PlacesViewModel;
+			sourceTree = "<group>";
+		};
+		3D0ACC3722F608DD00AFB158 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				3D0ACC3922F6090100AFB158 /* RemotePlaceStoreTest.swift */,
+				3D0ACC4222F60EA500AFB158 /* RemotePlaceURLBuilderTest.swift */,
+				3D0ACC4422F612D600AFB158 /* PlaceModelParserTest.swift */,
+				3D0ACC4622F6135600AFB158 /* test_places_success.json */,
+				3D0ACC5422F622BE00AFB158 /* test_places_error.json */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		3D0ACC3822F608E800AFB158 /* PlacesScene */ = {
+			isa = PBXGroup;
+			children = (
+				3D0ACC4822F6155700AFB158 /* View */,
+				3D0ACC3722F608DD00AFB158 /* Store */,
+				3D0ACC2A22F6010500AFB158 /* PlacesViewModel */,
+			);
+			path = PlacesScene;
+			sourceTree = "<group>";
+		};
+		3D0ACC4822F6155700AFB158 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D0ACC4922F6156D00AFB158 /* PlacesViewControllerTest.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D0ACC4E22F61FDB00AFB158 /* ClientAPI */ = {
+			isa = PBXGroup;
+			children = (
+				3D0ACC4F22F61FF900AFB158 /* DefaultAPIClientTest.swift */,
+			);
+			path = ClientAPI;
 			sourceTree = "<group>";
 		};
 		3D51DDAE22F599840001A821 = {
@@ -153,7 +245,8 @@
 		3D51DDCE22F599860001A821 /* AdyenTests */ = {
 			isa = PBXGroup;
 			children = (
-				3D51DDCF22F599860001A821 /* AdyenTests.swift */,
+				3D0ACC4E22F61FDB00AFB158 /* ClientAPI */,
+				3D0ACC2922F600F900AFB158 /* Scenes */,
 				3D51DDD122F599860001A821 /* Info.plist */,
 			);
 			path = AdyenTests;
@@ -181,8 +274,10 @@
 			isa = PBXGroup;
 			children = (
 				3D51DDDD22F599D70001A821 /* RequestExecuter.swift */,
+				3D0ACC5222F6203700AFB158 /* RequestExecuterMock.swift */,
 				3D51DDDF22F59AC00001A821 /* URLSession+RequestExecuter.swift */,
 				3D51DDE122F59C560001A821 /* APIClient.swift */,
+				3D0ACC3E22F6094300AFB158 /* APIClientMock.swift */,
 				3D51DDE522F59D320001A821 /* DefaultAPIClient.swift */,
 				3D51DDE322F59C8F0001A821 /* APIResource.swift */,
 			);
@@ -193,6 +288,7 @@
 			isa = PBXGroup;
 			children = (
 				3D51DDE922F5A19A0001A821 /* PlaceStore.swift */,
+				3D0ACC2E22F6017200AFB158 /* PlaceStoreMock.swift */,
 				3D51DDED22F5A2940001A821 /* RemotePlaceStore.swift */,
 				3D51DDF122F5A72B0001A821 /* RemotePlaceURLBuilder.swift */,
 				3D51DDEB22F5A24C0001A821 /* PlaceModel.swift */,
@@ -205,6 +301,7 @@
 			isa = PBXGroup;
 			children = (
 				3DCB3D9122F5AD8800EED25D /* PlacesViewModel.swift */,
+				3D0ACC4C22F615AA00AFB158 /* PlacesViewModelMock.swift */,
 				3DCB3D9422F5AE2200EED25D /* DefaultPlacesViewModel.swift */,
 			);
 			path = PlacesViewModel;
@@ -322,6 +419,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0ACC5522F622BE00AFB158 /* test_places_error.json in Resources */,
+				3D0ACC4722F6135600AFB158 /* test_places_success.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,7 +502,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D51DDD022F599860001A821 /* AdyenTests.swift in Sources */,
+				3D0ACC3622F607F200AFB158 /* PlacesViewModel.swift in Sources */,
+				3D0ACC2C22F6012100AFB158 /* DefaultPlacesViewModelTest.swift in Sources */,
+				3D0ACC3122F6019900AFB158 /* PlaceModel.swift in Sources */,
+				3D0ACC3D22F6093300AFB158 /* RemotePlaceURLBuilder.swift in Sources */,
+				3D0ACC4A22F6156D00AFB158 /* PlacesViewControllerTest.swift in Sources */,
+				3D0ACC3A22F6090100AFB158 /* RemotePlaceStoreTest.swift in Sources */,
+				3D0ACC3522F6029300AFB158 /* LocationProvider.swift in Sources */,
+				3D0ACC4322F60EA500AFB158 /* RemotePlaceURLBuilderTest.swift in Sources */,
+				3D0ACC3422F6028500AFB158 /* LocationProviderMock.swift in Sources */,
+				3D0ACC2D22F6014C00AFB158 /* DefaultPlacesViewModel.swift in Sources */,
+				3D0ACC3F22F6094300AFB158 /* APIClientMock.swift in Sources */,
+				3D0ACC4522F612D600AFB158 /* PlaceModelParserTest.swift in Sources */,
+				3D0ACC3222F601A400AFB158 /* RequestExecuter.swift in Sources */,
+				3D0ACC4122F60BF900AFB158 /* PlaceModelParser.swift in Sources */,
+				3D0ACC4B22F6158300AFB158 /* PlacesViewController.swift in Sources */,
+				3D0ACC3C22F6091200AFB158 /* APIClient.swift in Sources */,
+				3D0ACC2F22F6017200AFB158 /* PlaceStoreMock.swift in Sources */,
+				3D0ACC5122F6200B00AFB158 /* DefaultAPIClient.swift in Sources */,
+				3D0ACC3022F6018600AFB158 /* PlaceStore.swift in Sources */,
+				3D0ACC5022F61FF900AFB158 /* DefaultAPIClientTest.swift in Sources */,
+				3D0ACC5322F6203700AFB158 /* RequestExecuterMock.swift in Sources */,
+				3D0ACC4022F6096500AFB158 /* APIResource.swift in Sources */,
+				3D0ACC4D22F615AA00AFB158 /* PlacesViewModelMock.swift in Sources */,
+				3D0ACC3B22F6090900AFB158 /* RemotePlaceStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

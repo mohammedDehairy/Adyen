@@ -14,5 +14,4 @@ protocol PlacesViewModel {
     var cachedModel: [PlaceModel] { get }
     func didChangeRegion(region: MKCoordinateRegion)
     func didSelect(place: PlaceModel)
-    func didSelectPlace(at index: Int)
 }

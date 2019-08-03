@@ -1,0 +1,208 @@
+{
+    "meta": {
+        "code": 200,
+        "requestId": "5d45dbab86bc49002caaf821"
+    },
+    "response": {
+        "suggestedFilters": {
+            "header": "Tap to show:",
+            "filters": [
+                {
+                    "name": "Open now",
+                    "key": "openNow"
+                }
+            ]
+        },
+        "warning": {
+            "text": "There aren't a lot of results near you. Try something more general, reset your filters, or expand the search area."
+        },
+        "headerLocation": "Hoofddorp",
+        "headerFullLocation": "Hoofddorp",
+        "headerLocationGranularity": "city",
+        "totalResults": 87,
+        "suggestedBounds": {
+            "ne": {
+                "lat": 52.32305912250003,
+                "lng": 4.721170543390991
+            },
+            "sw": {
+                "lat": 52.278059077499975,
+                "lng": 4.6477206566090095
+            }
+        },
+        "groups": [
+            {
+                "type": "Recommended Places",
+                "name": "recommended",
+                "items": [
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "587fb9ea25911e15b1056e8c",
+                            "name": "Brute Burgers",
+                            "location": {
+                                "lat": 52.303954,
+                                "lng": 4.691842,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 52.303954,
+                                        "lng": 4.691842
+                                    }
+                                ],
+                                "distance": 629,
+                                "cc": "NL",
+                                "country": "Netherlands",
+                                "formattedAddress": [
+                                    "Netherlands"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d16c941735",
+                                    "name": "Burger Joint",
+                                    "pluralName": "Burger Joints",
+                                    "shortName": "Burgers",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/burger_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": [ ]
+                            }
+                        },
+                        "referralId": "e-0-587fb9ea25911e15b1056e8c-0"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "4f5f4a63e4b0028cfa222448",
+                            "name": "CineMeerse",
+                            "location": {
+                                "address": "Raadhuisplein 12",
+                                "lat": 52.30175696243503,
+                                "lng": 4.69554693601281,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 52.30175696243503,
+                                        "lng": 4.69554693601281
+                                    }
+                                ],
+                                "distance": 767,
+                                "postalCode": "2132 TZ",
+                                "cc": "NL",
+                                "city": "Hoofddorp",
+                                "state": "North Holland",
+                                "country": "Netherlands",
+                                "formattedAddress": [
+                                    "Raadhuisplein 12",
+                                    "2132 TZ Hoofddorp",
+                                    "Netherlands"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d17f941735",
+                                    "name": "Movie Theater",
+                                    "pluralName": "Movie Theaters",
+                                    "shortName": "Movie Theater",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": [ ]
+                            }
+                        },
+                        "referralId": "e-0-4f5f4a63e4b0028cfa222448-1"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "581483c738fa25270f6a022d",
+                            "name": "Jopenkerk Hoofddorp",
+                            "location": {
+                                "address": "Hoofdweg 774",
+                                "lat": 52.30211291653203,
+                                "lng": 4.6887681648385815,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 52.30211291653203,
+                                        "lng": 4.6887681648385815
+                                    }
+                                ],
+                                "distance": 341,
+                                "postalCode": "2132 BW",
+                                "cc": "NL",
+                                "neighborhood": "Hoofddorp",
+                                "city": "Hoofddorp",
+                                "state": "North Holland",
+                                "country": "Netherlands",
+                                "formattedAddress": [
+                                    "Hoofdweg 774",
+                                    "2132 BW Hoofddorp",
+                                    "Netherlands"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "50327c8591d4c4b30a586d5d",
+                                    "name": "Brewery",
+                                    "pluralName": "Breweries",
+                                    "shortName": "Brewery",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/brewery_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": [ ]
+                            }
+                        },
+                        "referralId": "e-0-581483c738fa25270f6a022d-2"
+                    }
+                ]
+            }
+        ]
+    }
+}
