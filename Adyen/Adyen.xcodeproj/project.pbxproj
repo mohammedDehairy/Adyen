@@ -37,7 +37,7 @@
 		3D0ACC5322F6203700AFB158 /* RequestExecuterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC5222F6203700AFB158 /* RequestExecuterMock.swift */; };
 		3D0ACC5522F622BE00AFB158 /* test_places_error.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D0ACC5422F622BE00AFB158 /* test_places_error.json */; };
 		3D51DDBB22F599840001A821 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDBA22F599840001A821 /* AppDelegate.swift */; };
-		3D51DDBD22F599840001A821 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDBC22F599840001A821 /* ViewController.swift */; };
+		3D51DDBD22F599840001A821 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDBC22F599840001A821 /* RootViewController.swift */; };
 		3D51DDC022F599840001A821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D51DDBE22F599840001A821 /* Main.storyboard */; };
 		3D51DDC222F599860001A821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D51DDC122F599860001A821 /* Assets.xcassets */; };
 		3D51DDC522F599860001A821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D51DDC322F599860001A821 /* LaunchScreen.storyboard */; };
@@ -87,7 +87,7 @@
 		3D0ACC5422F622BE00AFB158 /* test_places_error.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test_places_error.json; sourceTree = "<group>"; };
 		3D51DDB722F599840001A821 /* Adyen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adyen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D51DDBA22F599840001A821 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D51DDBC22F599840001A821 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D51DDBC22F599840001A821 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		3D51DDBF22F599840001A821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D51DDC122F599860001A821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D51DDC422F599860001A821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -233,7 +233,7 @@
 				3D51DDDC22F599B40001A821 /* ClientAPI */,
 				3D51DDDA22F599930001A821 /* Scenes */,
 				3D51DDBA22F599840001A821 /* AppDelegate.swift */,
-				3D51DDBC22F599840001A821 /* ViewController.swift */,
+				3D51DDBC22F599840001A821 /* RootViewController.swift */,
 				3D51DDBE22F599840001A821 /* Main.storyboard */,
 				3D51DDC122F599860001A821 /* Assets.xcassets */,
 				3D51DDC322F599860001A821 /* LaunchScreen.storyboard */,
@@ -479,7 +479,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DCB3D9522F5AE2200EED25D /* DefaultPlacesViewModel.swift in Sources */,
-				3D51DDBD22F599840001A821 /* ViewController.swift in Sources */,
+				3D51DDBD22F599840001A821 /* RootViewController.swift in Sources */,
 				3D0ACC2822F5D9E200AFB158 /* DefaultLocationProvider.swift in Sources */,
 				3D51DDEA22F5A19A0001A821 /* PlaceStore.swift in Sources */,
 				3D51DDF022F5A6B60001A821 /* PlaceModelParser.swift in Sources */,

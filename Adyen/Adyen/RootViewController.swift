@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RootViewController: UIViewController {
     lazy var clientApi: APIClient = {
         return DefaultAPIClient(executer: URLSession.shared)
     }()
