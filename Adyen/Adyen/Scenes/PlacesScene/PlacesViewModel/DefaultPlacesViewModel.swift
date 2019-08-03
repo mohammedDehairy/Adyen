@@ -12,11 +12,23 @@ final class DefaultPlacesViewModel: PlacesViewModel {
     private let store: PlaceStore
     private(set) var cachedModel: [PlaceModel] = []
     private var currentQuery: Cancelable?
+    private var locationProvider: LocationProvider
     
     var updateModel: ((Result<[PlaceModel], Error>) -> Void)?
+    var updateUserLocation: ((CLLocation) -> Void)? {
+        didSet {
+            if updateUserLocation != nil {
+                locationProvider.startUpdateLocation()
+            } else {
+                locationProvider.stopUpdateLocation()
+            }
+            locationProvider.updateUserLocation = updateUserLocation
+        }
+    }
     
-    init(store: PlaceStore) {
+    init(store: PlaceStore, locationProvider: LocationProvider) {
         self.store = store
+        self.locationProvider = locationProvider
     }
     
     func didChangeRegion(region: MKCoordinateRegion) {
@@ -29,6 +41,8 @@ final class DefaultPlacesViewModel: PlacesViewModel {
     }
     
     private func handle(result: Result<[PlaceModel], Error>) {
+        // Ignore the error returned when the query is canceled
+        guard (result.error as NSError?)?.code != NSURLErrorCancelled else { return }
         if let places = result.value {
             cachedModel = places
         }

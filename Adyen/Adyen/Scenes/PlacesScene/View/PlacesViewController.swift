@@ -10,6 +10,10 @@ import UIKit
 import MapKit
 import NotificationBannerSwift
 
+private class PlaceAnnotation: MKPointAnnotation {
+    var identifier: String?
+}
+
 class PlacesViewController: UIViewController, MKMapViewDelegate {
     private var viewModel: PlacesViewModel
     private let mapView: MKMapView = {
@@ -66,6 +70,14 @@ class PlacesViewController: UIViewController, MKMapViewDelegate {
         
         return annotationView
     }
+    
+    func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
+        guard let annotation = view.annotation else { return }
+        guard let place = (viewModel.cachedModel.filter { (annotation as? PlaceAnnotation)?.identifier == $0.id }).first else {
+            return
+        }
+        viewModel.didSelect(place: place)
+    }
 
     // MARK: - Setup View Model
     
@@ -73,6 +85,15 @@ class PlacesViewController: UIViewController, MKMapViewDelegate {
         viewModel.updateModel = {[weak self] result in
             self?.handle(result: result)
         }
+        viewModel.updateUserLocation = {[weak self] location in
+            self?.handle(userLocation: location)
+        }
+    }
+    
+    private func handle(userLocation: CLLocation) {
+        let initailRegion = MKCoordinateRegion(center: userLocation.coordinate, latitudinalMeters: 100000, longitudinalMeters: 100000)
+        mapView.setRegion(initailRegion, animated: false)
+        viewModel.updateUserLocation = nil
     }
     
     private func handle(result: Result<[PlaceModel], Error>) {
@@ -92,10 +113,11 @@ class PlacesViewController: UIViewController, MKMapViewDelegate {
     }
     
     private func getPin(from place: PlaceModel) -> MKPointAnnotation {
-        let pin = MKPointAnnotation()
+        let pin = PlaceAnnotation()
         pin.coordinate = place.coordinate
         pin.title = place.name
         pin.subtitle = place.category
+        pin.identifier = place.id
         return pin
     }
 }

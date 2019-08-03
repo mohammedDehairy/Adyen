@@ -15,7 +15,10 @@ class ViewController: UIViewController {
     
     lazy var placesViewModel: PlacesViewModel = {
         let store = RemotePlaceStore(clientApi: clientApi)
-        return DefaultPlacesViewModel(store: store)
+        return DefaultPlacesViewModel(
+            store: store,
+            locationProvider: DefaultLocationProvider()
+        )
     }()
     
     lazy var placesViewController: PlacesViewController = {

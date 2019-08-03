@@ -10,6 +10,7 @@ import MapKit
 
 protocol PlacesViewModel {
     var updateModel: ((Result<[PlaceModel], Error>) -> Void)? { get set }
+    var updateUserLocation: ((CLLocation) -> Void)? { get set }
     var cachedModel: [PlaceModel] { get }
     func didChangeRegion(region: MKCoordinateRegion)
     func didSelect(place: PlaceModel)

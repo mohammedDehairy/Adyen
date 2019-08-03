@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		31A13C8CCB0B6C2666A0CF36 /* libPods-Adyen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99960F8F698F698D424D6A68 /* libPods-Adyen.a */; };
+		3D0ACC2622F5D9AA00AFB158 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC2522F5D9AA00AFB158 /* LocationProvider.swift */; };
+		3D0ACC2822F5D9E200AFB158 /* DefaultLocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC2722F5D9E200AFB158 /* DefaultLocationProvider.swift */; };
 		3D51DDBB22F599840001A821 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDBA22F599840001A821 /* AppDelegate.swift */; };
 		3D51DDBD22F599840001A821 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDBC22F599840001A821 /* ViewController.swift */; };
 		3D51DDC022F599840001A821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D51DDBE22F599840001A821 /* Main.storyboard */; };
@@ -43,6 +45,8 @@
 /* Begin PBXFileReference section */
 		00D0215F1B8A105AA2F3F84F /* Pods-Adyen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adyen.debug.xcconfig"; path = "Target Support Files/Pods-Adyen/Pods-Adyen.debug.xcconfig"; sourceTree = "<group>"; };
 		069A69803255AE98E1EE8E87 /* Pods-AdyenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdyenTests.release.xcconfig"; path = "Target Support Files/Pods-AdyenTests/Pods-AdyenTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D0ACC2522F5D9AA00AFB158 /* LocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
+		3D0ACC2722F5D9E200AFB158 /* DefaultLocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultLocationProvider.swift; sourceTree = "<group>"; };
 		3D51DDB722F599840001A821 /* Adyen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adyen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D51DDBA22F599840001A821 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D51DDBC22F599840001A821 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +105,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3D0ACC2422F5D99200AFB158 /* LocationProvider */ = {
+			isa = PBXGroup;
+			children = (
+				3D0ACC2522F5D9AA00AFB158 /* LocationProvider.swift */,
+				3D0ACC2722F5D9E200AFB158 /* DefaultLocationProvider.swift */,
+			);
+			path = LocationProvider;
+			sourceTree = "<group>";
+		};
 		3D51DDAE22F599840001A821 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +137,7 @@
 		3D51DDB922F599840001A821 /* Adyen */ = {
 			isa = PBXGroup;
 			children = (
+				3D0ACC2422F5D99200AFB158 /* LocationProvider */,
 				3D51DDDC22F599B40001A821 /* ClientAPI */,
 				3D51DDDA22F599930001A821 /* Scenes */,
 				3D51DDBA22F599840001A821 /* AppDelegate.swift */,
@@ -212,7 +226,6 @@
 				B3A377FE4A95E948285DB26B /* Pods-AdyenTests.debug.xcconfig */,
 				069A69803255AE98E1EE8E87 /* Pods-AdyenTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -368,9 +381,11 @@
 			files = (
 				3DCB3D9522F5AE2200EED25D /* DefaultPlacesViewModel.swift in Sources */,
 				3D51DDBD22F599840001A821 /* ViewController.swift in Sources */,
+				3D0ACC2822F5D9E200AFB158 /* DefaultLocationProvider.swift in Sources */,
 				3D51DDEA22F5A19A0001A821 /* PlaceStore.swift in Sources */,
 				3D51DDF022F5A6B60001A821 /* PlaceModelParser.swift in Sources */,
 				3D51DDDE22F599D70001A821 /* RequestExecuter.swift in Sources */,
+				3D0ACC2622F5D9AA00AFB158 /* LocationProvider.swift in Sources */,
 				3D51DDE022F59AC00001A821 /* URLSession+RequestExecuter.swift in Sources */,
 				3D51DDE222F59C560001A821 /* APIClient.swift in Sources */,
 				3D51DDE422F59C8F0001A821 /* APIResource.swift in Sources */,
@@ -546,6 +561,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 656PJL646M;
 				INFOPLIST_FILE = Adyen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -565,6 +581,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 656PJL646M;
 				INFOPLIST_FILE = Adyen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
