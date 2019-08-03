@@ -8,12 +8,12 @@
 
 import MapKit
 
-final class DefaultPlacesViewModel: PlacesViewModel {
+final class DefaultPlacesViewModel: PlacesViewModel {    
     private let store: PlaceStore
     private(set) var cachedModel: [PlaceModel] = []
     private var currentQuery: Cancelable?
     
-    var updateModel: (([PlaceModel]) -> Void)?
+    var updateModel: ((Result<[PlaceModel], Error>) -> Void)?
     
     init(store: PlaceStore) {
         self.store = store
@@ -29,9 +29,10 @@ final class DefaultPlacesViewModel: PlacesViewModel {
     }
     
     private func handle(result: Result<[PlaceModel], Error>) {
-        guard let places = result.value else { return }
-        cachedModel = places
-        updateModel?(cachedModel)
+        if let places = result.value {
+            cachedModel = places
+        }
+        updateModel?(result)
     }
     
     func didSelect(place: PlaceModel) {

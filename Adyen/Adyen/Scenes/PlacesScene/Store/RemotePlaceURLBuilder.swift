@@ -17,7 +17,8 @@ struct RemotePlaceURLBuilder {
     
     private func getRadius(from region: MKCoordinateRegion) -> Int {
         let center = CLLocation(latitude: region.center.latitude, longitude: region.center.longitude)
-        let coordinate1 = CLLocation(latitude: center.coordinate.latitude + region.span.latitudeDelta/2, longitude: center.coordinate.longitude)
+        let delta = max(region.span.latitudeDelta, region.span.longitudeDelta)
+        let coordinate1 = CLLocation(latitude: center.coordinate.latitude + delta/2, longitude: center.coordinate.longitude)
         let radius = center.distance(from: coordinate1)
         return Int(radius)
     }

@@ -8,7 +8,7 @@
 
 import MapKit
 
-enum ParsingError: Error {
+enum ParsingError: LocalizedError {
     case nilData
     case invalidJson
     case noResponseObject
@@ -19,10 +19,21 @@ enum ParsingError: Error {
     case noLocationObject
     case noLat
     case noLng
+    case noCategoriesObject
+    case noCategoryName
     case noStatusCode
     case noErrorDetails
     case apiError(message: String)
     case noMetaObject
+    
+    public var errorDescription: String? {
+        switch self {
+        case .apiError(let message):
+            return message
+        default:
+            return "Fatal Error: Unexpected Server response"
+        }
+    }
 }
 
 func parse(data: Data?) -> Result<[PlaceModel], Error> {
@@ -109,5 +120,13 @@ private func parse(item: [String: Any]) -> Result<PlaceModel, Error> {
         return .failure(ParsingError.noLng)
     }
     let coordinate = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
-    return .success(PlaceModel(id: id, name: name, coordinate: coordinate))
+    guard let category = (venu["categories"] as? [[String: Any]])?.first else {
+        assertionFailure("Invalid json")
+        return .failure(ParsingError.noCategoriesObject)
+    }
+    guard let categoryString = category["name"] as? String else {
+        assertionFailure("Invalid json")
+        return .failure(ParsingError.noCategoryName)
+    }
+    return .success(PlaceModel(id: id, name: name, coordinate: coordinate, category: categoryString))
 }

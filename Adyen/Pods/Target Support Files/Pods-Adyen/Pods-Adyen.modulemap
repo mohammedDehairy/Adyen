@@ -1,0 +1,6 @@
+module Pods_Adyen {
+  umbrella header "Pods-Adyen-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -12,4 +12,5 @@ struct PlaceModel {
     let id: String
     let name: String
     let coordinate: CLLocationCoordinate2D
+    let category: String
 }

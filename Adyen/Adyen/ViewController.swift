@@ -22,17 +22,21 @@ class ViewController: UIViewController {
         return PlacesViewController(viewModel: placesViewModel)
     }()
     
+    lazy var naviController: UINavigationController = {
+        return UINavigationController(rootViewController: placesViewController)
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        placesViewController.willMove(toParent: self)
-        addChild(placesViewController)
-        view.addSubview(placesViewController.view)
-        placesViewController.didMove(toParent: self)
+        naviController.willMove(toParent: self)
+        addChild(naviController)
+        view.addSubview(naviController.view)
+        naviController.didMove(toParent: self)
     }
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        placesViewController.view.frame = CGRect(origin: .zero, size: view.bounds.size)
+        naviController.view.frame = CGRect(origin: .zero, size: view.bounds.size)
     }
 
 }
