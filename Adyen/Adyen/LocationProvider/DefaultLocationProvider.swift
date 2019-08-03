@@ -23,6 +23,7 @@ final class DefaultLocationProvider: NSObject, LocationProvider, CLLocationManag
     }
     
     func stopUpdateLocation() {
+        guard isUpdating else { return }
         isUpdating = false
         locationManager.stopUpdatingLocation()
     }
