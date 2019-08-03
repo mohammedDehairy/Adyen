@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D51DDBB22F599840001A821 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDBA22F599840001A821 /* AppDelegate.swift */; };
+		3D51DDBD22F599840001A821 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDBC22F599840001A821 /* ViewController.swift */; };
+		3D51DDC022F599840001A821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D51DDBE22F599840001A821 /* Main.storyboard */; };
+		3D51DDC222F599860001A821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D51DDC122F599860001A821 /* Assets.xcassets */; };
+		3D51DDC522F599860001A821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D51DDC322F599860001A821 /* LaunchScreen.storyboard */; };
+		3D51DDD022F599860001A821 /* AdyenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDCF22F599860001A821 /* AdyenTests.swift */; };
+		3D51DDDE22F599D70001A821 /* RequestExecuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDDD22F599D70001A821 /* RequestExecuter.swift */; };
+		3D51DDE022F59AC00001A821 /* URLSession+RequestExecuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDDF22F59AC00001A821 /* URLSession+RequestExecuter.swift */; };
+		3D51DDE222F59C560001A821 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDE122F59C560001A821 /* APIClient.swift */; };
+		3D51DDE422F59C8F0001A821 /* APIResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDE322F59C8F0001A821 /* APIResource.swift */; };
+		3D51DDE622F59D320001A821 /* DefaultAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDE522F59D320001A821 /* DefaultAPIClient.swift */; };
+		3D51DDEA22F5A19A0001A821 /* PlaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDE922F5A19A0001A821 /* PlaceStore.swift */; };
+		3D51DDEC22F5A24C0001A821 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDEB22F5A24C0001A821 /* PlaceModel.swift */; };
+		3D51DDEE22F5A2940001A821 /* RemotePlaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDED22F5A2940001A821 /* RemotePlaceStore.swift */; };
+		3D51DDF022F5A6B60001A821 /* PlaceModelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDEF22F5A6B60001A821 /* PlaceModelParser.swift */; };
+		3D51DDF222F5A72B0001A821 /* RemotePlaceURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDF122F5A72B0001A821 /* RemotePlaceURLBuilder.swift */; };
+		3DCB3D9222F5AD8800EED25D /* PlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB3D9122F5AD8800EED25D /* PlacesViewModel.swift */; };
+		3DCB3D9522F5AE2200EED25D /* DefaultPlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB3D9422F5AE2200EED25D /* DefaultPlacesViewModel.swift */; };
+		3DCB3D9822F5B2C000EED25D /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB3D9722F5B2C000EED25D /* PlacesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D51DDCC22F599860001A821 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D51DDAF22F599840001A821 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D51DDB622F599840001A821;
+			remoteInfo = Adyen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D51DDB722F599840001A821 /* Adyen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adyen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D51DDBA22F599840001A821 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D51DDBC22F599840001A821 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D51DDBF22F599840001A821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D51DDC122F599860001A821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D51DDC422F599860001A821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D51DDC622F599860001A821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D51DDCB22F599860001A821 /* AdyenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdyenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D51DDCF22F599860001A821 /* AdyenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdyenTests.swift; sourceTree = "<group>"; };
+		3D51DDD122F599860001A821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D51DDDD22F599D70001A821 /* RequestExecuter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestExecuter.swift; sourceTree = "<group>"; };
+		3D51DDDF22F59AC00001A821 /* URLSession+RequestExecuter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+RequestExecuter.swift"; sourceTree = "<group>"; };
+		3D51DDE122F59C560001A821 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		3D51DDE322F59C8F0001A821 /* APIResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResource.swift; sourceTree = "<group>"; };
+		3D51DDE522F59D320001A821 /* DefaultAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAPIClient.swift; sourceTree = "<group>"; };
+		3D51DDE922F5A19A0001A821 /* PlaceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceStore.swift; sourceTree = "<group>"; };
+		3D51DDEB22F5A24C0001A821 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		3D51DDED22F5A2940001A821 /* RemotePlaceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotePlaceStore.swift; sourceTree = "<group>"; };
+		3D51DDEF22F5A6B60001A821 /* PlaceModelParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModelParser.swift; sourceTree = "<group>"; };
+		3D51DDF122F5A72B0001A821 /* RemotePlaceURLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotePlaceURLBuilder.swift; sourceTree = "<group>"; };
+		3DCB3D9122F5AD8800EED25D /* PlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewModel.swift; sourceTree = "<group>"; };
+		3DCB3D9422F5AE2200EED25D /* DefaultPlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPlacesViewModel.swift; sourceTree = "<group>"; };
+		3DCB3D9722F5B2C000EED25D /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D51DDB422F599840001A821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D51DDC822F599860001A821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D51DDAE22F599840001A821 = {
+			isa = PBXGroup;
+			children = (
+				3D51DDB922F599840001A821 /* Adyen */,
+				3D51DDCE22F599860001A821 /* AdyenTests */,
+				3D51DDB822F599840001A821 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D51DDB822F599840001A821 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D51DDB722F599840001A821 /* Adyen.app */,
+				3D51DDCB22F599860001A821 /* AdyenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D51DDB922F599840001A821 /* Adyen */ = {
+			isa = PBXGroup;
+			children = (
+				3D51DDDC22F599B40001A821 /* ClientAPI */,
+				3D51DDDA22F599930001A821 /* Scenes */,
+				3D51DDBA22F599840001A821 /* AppDelegate.swift */,
+				3D51DDBC22F599840001A821 /* ViewController.swift */,
+				3D51DDBE22F599840001A821 /* Main.storyboard */,
+				3D51DDC122F599860001A821 /* Assets.xcassets */,
+				3D51DDC322F599860001A821 /* LaunchScreen.storyboard */,
+				3D51DDC622F599860001A821 /* Info.plist */,
+			);
+			path = Adyen;
+			sourceTree = "<group>";
+		};
+		3D51DDCE22F599860001A821 /* AdyenTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D51DDCF22F599860001A821 /* AdyenTests.swift */,
+				3D51DDD122F599860001A821 /* Info.plist */,
+			);
+			path = AdyenTests;
+			sourceTree = "<group>";
+		};
+		3D51DDDA22F599930001A821 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				3D51DDDB22F599A20001A821 /* PlacesScene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		3D51DDDB22F599A20001A821 /* PlacesScene */ = {
+			isa = PBXGroup;
+			children = (
+				3DCB3D9622F5B2AC00EED25D /* View */,
+				3DCB3D9022F5AD7100EED25D /* PlacesViewModel */,
+				3D51DDE822F5A1770001A821 /* Store */,
+			);
+			path = PlacesScene;
+			sourceTree = "<group>";
+		};
+		3D51DDDC22F599B40001A821 /* ClientAPI */ = {
+			isa = PBXGroup;
+			children = (
+				3D51DDDD22F599D70001A821 /* RequestExecuter.swift */,
+				3D51DDDF22F59AC00001A821 /* URLSession+RequestExecuter.swift */,
+				3D51DDE122F59C560001A821 /* APIClient.swift */,
+				3D51DDE522F59D320001A821 /* DefaultAPIClient.swift */,
+				3D51DDE322F59C8F0001A821 /* APIResource.swift */,
+			);
+			path = ClientAPI;
+			sourceTree = "<group>";
+		};
+		3D51DDE822F5A1770001A821 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				3D51DDE922F5A19A0001A821 /* PlaceStore.swift */,
+				3D51DDED22F5A2940001A821 /* RemotePlaceStore.swift */,
+				3D51DDF122F5A72B0001A821 /* RemotePlaceURLBuilder.swift */,
+				3D51DDEB22F5A24C0001A821 /* PlaceModel.swift */,
+				3D51DDEF22F5A6B60001A821 /* PlaceModelParser.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		3DCB3D9022F5AD7100EED25D /* PlacesViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3DCB3D9122F5AD8800EED25D /* PlacesViewModel.swift */,
+				3DCB3D9422F5AE2200EED25D /* DefaultPlacesViewModel.swift */,
+			);
+			path = PlacesViewModel;
+			sourceTree = "<group>";
+		};
+		3DCB3D9622F5B2AC00EED25D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3DCB3D9722F5B2C000EED25D /* PlacesViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D51DDB622F599840001A821 /* Adyen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D51DDD422F599860001A821 /* Build configuration list for PBXNativeTarget "Adyen" */;
+			buildPhases = (
+				3D51DDB322F599840001A821 /* Sources */,
+				3D51DDB422F599840001A821 /* Frameworks */,
+				3D51DDB522F599840001A821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adyen;
+			productName = Adyen;
+			productReference = 3D51DDB722F599840001A821 /* Adyen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D51DDCA22F599860001A821 /* AdyenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D51DDD722F599860001A821 /* Build configuration list for PBXNativeTarget "AdyenTests" */;
+			buildPhases = (
+				3D51DDC722F599860001A821 /* Sources */,
+				3D51DDC822F599860001A821 /* Frameworks */,
+				3D51DDC922F599860001A821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D51DDCD22F599860001A821 /* PBXTargetDependency */,
+			);
+			name = AdyenTests;
+			productName = AdyenTests;
+			productReference = 3D51DDCB22F599860001A821 /* AdyenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D51DDAF22F599840001A821 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "mohamed El Dehairy";
+				TargetAttributes = {
+					3D51DDB622F599840001A821 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					3D51DDCA22F599860001A821 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 3D51DDB622F599840001A821;
+					};
+				};
+			};
+			buildConfigurationList = 3D51DDB222F599840001A821 /* Build configuration list for PBXProject "Adyen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D51DDAE22F599840001A821;
+			productRefGroup = 3D51DDB822F599840001A821 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D51DDB622F599840001A821 /* Adyen */,
+				3D51DDCA22F599860001A821 /* AdyenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D51DDB522F599840001A821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D51DDC522F599860001A821 /* LaunchScreen.storyboard in Resources */,
+				3D51DDC222F599860001A821 /* Assets.xcassets in Resources */,
+				3D51DDC022F599840001A821 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D51DDC922F599860001A821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D51DDB322F599840001A821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCB3D9522F5AE2200EED25D /* DefaultPlacesViewModel.swift in Sources */,
+				3D51DDBD22F599840001A821 /* ViewController.swift in Sources */,
+				3D51DDEA22F5A19A0001A821 /* PlaceStore.swift in Sources */,
+				3D51DDF022F5A6B60001A821 /* PlaceModelParser.swift in Sources */,
+				3D51DDDE22F599D70001A821 /* RequestExecuter.swift in Sources */,
+				3D51DDE022F59AC00001A821 /* URLSession+RequestExecuter.swift in Sources */,
+				3D51DDE222F59C560001A821 /* APIClient.swift in Sources */,
+				3D51DDE422F59C8F0001A821 /* APIResource.swift in Sources */,
+				3D51DDBB22F599840001A821 /* AppDelegate.swift in Sources */,
+				3D51DDEC22F5A24C0001A821 /* PlaceModel.swift in Sources */,
+				3D51DDE622F59D320001A821 /* DefaultAPIClient.swift in Sources */,
+				3DCB3D9222F5AD8800EED25D /* PlacesViewModel.swift in Sources */,
+				3DCB3D9822F5B2C000EED25D /* PlacesViewController.swift in Sources */,
+				3D51DDF222F5A72B0001A821 /* RemotePlaceURLBuilder.swift in Sources */,
+				3D51DDEE22F5A2940001A821 /* RemotePlaceStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D51DDC722F599860001A821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D51DDD022F599860001A821 /* AdyenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D51DDCD22F599860001A821 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D51DDB622F599840001A821 /* Adyen */;
+			targetProxy = 3D51DDCC22F599860001A821 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D51DDBE22F599840001A821 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D51DDBF22F599840001A821 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D51DDC322F599860001A821 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D51DDC422F599860001A821 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D51DDD222F599860001A821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D51DDD322F599860001A821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D51DDD522F599860001A821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 656PJL646M;
+				INFOPLIST_FILE = Adyen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meldehairy.Adyen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D51DDD622F599860001A821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 656PJL646M;
+				INFOPLIST_FILE = Adyen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meldehairy.Adyen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D51DDD822F599860001A821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 656PJL646M;
+				INFOPLIST_FILE = AdyenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meldehairy.AdyenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adyen.app/Adyen";
+			};
+			name = Debug;
+		};
+		3D51DDD922F599860001A821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 656PJL646M;
+				INFOPLIST_FILE = AdyenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meldehairy.AdyenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adyen.app/Adyen";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D51DDB222F599840001A821 /* Build configuration list for PBXProject "Adyen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D51DDD222F599860001A821 /* Debug */,
+				3D51DDD322F599860001A821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D51DDD422F599860001A821 /* Build configuration list for PBXNativeTarget "Adyen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D51DDD522F599860001A821 /* Debug */,
+				3D51DDD622F599860001A821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D51DDD722F599860001A821 /* Build configuration list for PBXNativeTarget "AdyenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D51DDD822F599860001A821 /* Debug */,
+				3D51DDD922F599860001A821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D51DDAF22F599840001A821 /* Project object */;
+}
