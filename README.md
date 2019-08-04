@@ -13,7 +13,7 @@
 * iOS 12.0 is used as the minimum deployment target since iOS 12 adoption rate is 85% on all devices and only 9% for iOS 11 and 6% for the rest according to Apple.
 https://developer.apple.com/support/app-store/
 ## App UX choices
-* In the assignment pdf it mentioned to give the user the ability to adjust the search radius and location, so i couldn't think of a better UX than a map view and the venus are loaded according to the map visible region, so the user control the search center and region by simply scrolling/pinching the map view.
+* In the assignment pdf it mentioned to give the user the ability to adjust the search radius and location, so i couldn't think of a better UX than a map view and the venus are loaded according to the map visible region, so the user control the search center and region by simply scrolling/pinching the map view and then taping on the load button at the bottom right corner of the map.
 * It would have been better to use a combination a map view to control the search region and a list to show the current venus, and maybe also the ability of the user to bookmark some venus, and maybe to navigate to them using in-app functionality or other apps like apple/google maps.
 ## Dependencies 
 * NotificationBannerSwift Pod is used to show a nice user friendly notification banner when for example there is no internet connection or some unexpected server error.
