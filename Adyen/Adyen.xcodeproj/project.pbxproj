@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A32A60542EA9DBCA0F85CC7 /* libPods-AdyenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7BDB955551F9CE6FC39F81D /* libPods-AdyenTests.a */; };
+		195EB5057165A8D40853DEEA /* libPods-Adyen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5EBB72DCF09E5A34E91980 /* libPods-Adyen.a */; };
 		3D0ACC2622F5D9AA00AFB158 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC2522F5D9AA00AFB158 /* LocationProvider.swift */; };
 		3D0ACC2822F5D9E200AFB158 /* DefaultLocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC2722F5D9E200AFB158 /* DefaultLocationProvider.swift */; };
 		3D0ACC2C22F6012100AFB158 /* DefaultPlacesViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC2B22F6012100AFB158 /* DefaultPlacesViewModelTest.swift */; };
@@ -55,8 +57,6 @@
 		3DCB3D9222F5AD8800EED25D /* PlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB3D9122F5AD8800EED25D /* PlacesViewModel.swift */; };
 		3DCB3D9522F5AE2200EED25D /* DefaultPlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB3D9422F5AE2200EED25D /* DefaultPlacesViewModel.swift */; };
 		3DCB3D9822F5B2C000EED25D /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB3D9722F5B2C000EED25D /* PlacesViewController.swift */; };
-		72B02F81507515312D593A4A /* libPods-AdyenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 239A6AD85BB8BFD71074FB9F /* libPods-AdyenTests.a */; };
-		BAC9990A056F0DE825C358FB /* libPods-Adyen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6852D8E471BE94E63613C39F /* libPods-Adyen.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,9 +70,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00D0215F1B8A105AA2F3F84F /* Pods-Adyen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adyen.debug.xcconfig"; path = "Target Support Files/Pods-Adyen/Pods-Adyen.debug.xcconfig"; sourceTree = "<group>"; };
-		239A6AD85BB8BFD71074FB9F /* libPods-AdyenTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdyenTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		282FCB72EE21DDA6AB01B9E3 /* Pods-Adyen-AdyenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adyen-AdyenTests.debug.xcconfig"; path = "Target Support Files/Pods-Adyen-AdyenTests/Pods-Adyen-AdyenTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3D0ACC2522F5D9AA00AFB158 /* LocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
 		3D0ACC2722F5D9E200AFB158 /* DefaultLocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultLocationProvider.swift; sourceTree = "<group>"; };
 		3D0ACC2B22F6012100AFB158 /* DefaultPlacesViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPlacesViewModelTest.swift; sourceTree = "<group>"; };
@@ -111,11 +108,12 @@
 		3DCB3D9122F5AD8800EED25D /* PlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewModel.swift; sourceTree = "<group>"; };
 		3DCB3D9422F5AE2200EED25D /* DefaultPlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPlacesViewModel.swift; sourceTree = "<group>"; };
 		3DCB3D9722F5B2C000EED25D /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
-		6852D8E471BE94E63613C39F /* libPods-Adyen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Adyen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B00814EF8C89EF75EE71369 /* Pods-AdyenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdyenTests.release.xcconfig"; path = "Target Support Files/Pods-AdyenTests/Pods-AdyenTests.release.xcconfig"; sourceTree = "<group>"; };
-		D61A55E026256A760E5D0BDC /* Pods-AdyenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdyenTests.debug.xcconfig"; path = "Target Support Files/Pods-AdyenTests/Pods-AdyenTests.debug.xcconfig"; sourceTree = "<group>"; };
-		EFB1A0FD09A576D24B53E58E /* Pods-Adyen-AdyenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adyen-AdyenTests.release.xcconfig"; path = "Target Support Files/Pods-Adyen-AdyenTests/Pods-Adyen-AdyenTests.release.xcconfig"; sourceTree = "<group>"; };
-		FB5BDF0C9AADF36ED3DC2CCB /* Pods-Adyen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adyen.release.xcconfig"; path = "Target Support Files/Pods-Adyen/Pods-Adyen.release.xcconfig"; sourceTree = "<group>"; };
+		831125F30964A30F12537B8D /* Pods-Adyen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adyen.debug.xcconfig"; path = "Target Support Files/Pods-Adyen/Pods-Adyen.debug.xcconfig"; sourceTree = "<group>"; };
+		C4ACC7AEAC03D4C0353756EA /* Pods-AdyenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdyenTests.release.xcconfig"; path = "Target Support Files/Pods-AdyenTests/Pods-AdyenTests.release.xcconfig"; sourceTree = "<group>"; };
+		D30ED64B6CA0D916F2B7CDD4 /* Pods-Adyen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adyen.release.xcconfig"; path = "Target Support Files/Pods-Adyen/Pods-Adyen.release.xcconfig"; sourceTree = "<group>"; };
+		D7BDB955551F9CE6FC39F81D /* libPods-AdyenTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdyenTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5EBB72DCF09E5A34E91980 /* libPods-Adyen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Adyen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F707F71BDEE0E99E748C2AD4 /* Pods-AdyenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdyenTests.debug.xcconfig"; path = "Target Support Files/Pods-AdyenTests/Pods-AdyenTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAC9990A056F0DE825C358FB /* libPods-Adyen.a in Frameworks */,
+				195EB5057165A8D40853DEEA /* libPods-Adyen.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,22 +129,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72B02F81507515312D593A4A /* libPods-AdyenTests.a in Frameworks */,
+				0A32A60542EA9DBCA0F85CC7 /* libPods-AdyenTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		35E49C5D7EC0D97BD3406EE9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6852D8E471BE94E63613C39F /* libPods-Adyen.a */,
-				239A6AD85BB8BFD71074FB9F /* libPods-AdyenTests.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		3D0ACC2422F5D99200AFB158 /* LocationProvider */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,7 +207,7 @@
 				3D51DDCE22F599860001A821 /* AdyenTests */,
 				3D51DDB822F599840001A821 /* Products */,
 				ACFE68F81532227D31CE3962 /* Pods */,
-				35E49C5D7EC0D97BD3406EE9 /* Frameworks */,
+				66AD19EBAEAB8E6173DE1041 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -321,15 +310,22 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		66AD19EBAEAB8E6173DE1041 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD5EBB72DCF09E5A34E91980 /* libPods-Adyen.a */,
+				D7BDB955551F9CE6FC39F81D /* libPods-AdyenTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ACFE68F81532227D31CE3962 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				00D0215F1B8A105AA2F3F84F /* Pods-Adyen.debug.xcconfig */,
-				FB5BDF0C9AADF36ED3DC2CCB /* Pods-Adyen.release.xcconfig */,
-				D61A55E026256A760E5D0BDC /* Pods-AdyenTests.debug.xcconfig */,
-				9B00814EF8C89EF75EE71369 /* Pods-AdyenTests.release.xcconfig */,
-				282FCB72EE21DDA6AB01B9E3 /* Pods-Adyen-AdyenTests.debug.xcconfig */,
-				EFB1A0FD09A576D24B53E58E /* Pods-Adyen-AdyenTests.release.xcconfig */,
+				831125F30964A30F12537B8D /* Pods-Adyen.debug.xcconfig */,
+				D30ED64B6CA0D916F2B7CDD4 /* Pods-Adyen.release.xcconfig */,
+				F707F71BDEE0E99E748C2AD4 /* Pods-AdyenTests.debug.xcconfig */,
+				C4ACC7AEAC03D4C0353756EA /* Pods-AdyenTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -341,7 +337,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D51DDD422F599860001A821 /* Build configuration list for PBXNativeTarget "Adyen" */;
 			buildPhases = (
-				2B04737DB6DD2A2AF72FE56E /* [CP] Check Pods Manifest.lock */,
+				95DD5FCE2D2D224935DEDC68 /* [CP] Check Pods Manifest.lock */,
 				3D51DDB322F599840001A821 /* Sources */,
 				3D51DDB422F599840001A821 /* Frameworks */,
 				3D51DDB522F599840001A821 /* Resources */,
@@ -359,7 +355,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D51DDD722F599860001A821 /* Build configuration list for PBXNativeTarget "AdyenTests" */;
 			buildPhases = (
-				FA78010FDFFFA22F9D513C20 /* [CP] Check Pods Manifest.lock */,
+				6366782EACA011D3DB569482 /* [CP] Check Pods Manifest.lock */,
 				3D51DDC722F599860001A821 /* Sources */,
 				3D51DDC822F599860001A821 /* Frameworks */,
 				3D51DDC922F599860001A821 /* Resources */,
@@ -435,29 +431,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2B04737DB6DD2A2AF72FE56E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Adyen-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FA78010FDFFFA22F9D513C20 /* [CP] Check Pods Manifest.lock */ = {
+		6366782EACA011D3DB569482 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -473,6 +447,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-AdyenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95DD5FCE2D2D224935DEDC68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Adyen-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -687,13 +683,13 @@
 		};
 		3D51DDD522F599860001A821 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00D0215F1B8A105AA2F3F84F /* Pods-Adyen.debug.xcconfig */;
+			baseConfigurationReference = 831125F30964A30F12537B8D /* Pods-Adyen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 656PJL646M;
 				INFOPLIST_FILE = Adyen/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -707,13 +703,13 @@
 		};
 		3D51DDD622F599860001A821 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB5BDF0C9AADF36ED3DC2CCB /* Pods-Adyen.release.xcconfig */;
+			baseConfigurationReference = D30ED64B6CA0D916F2B7CDD4 /* Pods-Adyen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 656PJL646M;
 				INFOPLIST_FILE = Adyen/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -727,7 +723,7 @@
 		};
 		3D51DDD822F599860001A821 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D61A55E026256A760E5D0BDC /* Pods-AdyenTests.debug.xcconfig */;
+			baseConfigurationReference = F707F71BDEE0E99E748C2AD4 /* Pods-AdyenTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -749,7 +745,7 @@
 		};
 		3D51DDD922F599860001A821 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B00814EF8C89EF75EE71369 /* Pods-AdyenTests.release.xcconfig */;
+			baseConfigurationReference = C4ACC7AEAC03D4C0353756EA /* Pods-AdyenTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
