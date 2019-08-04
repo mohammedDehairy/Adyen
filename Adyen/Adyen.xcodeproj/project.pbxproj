@@ -32,19 +32,19 @@
 		3DC3752522F7696F00F2FF31 /* DefaultAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDE522F59D320001A821 /* DefaultAPIClient.swift */; };
 		3DC3752622F7697400F2FF31 /* APIResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDE322F59C8F0001A821 /* APIResource.swift */; };
 		3DC3752B22F76BCE00F2FF31 /* ClientAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3752A22F76BCE00F2FF31 /* ClientAPI.swift */; };
-		3DC3753822F76C3500F2FF31 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB3D9722F5B2C000EED25D /* PlacesViewController.swift */; };
-		3DC3753922F76C3A00F2FF31 /* PlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB3D9122F5AD8800EED25D /* PlacesViewModel.swift */; };
-		3DC3753A22F76C4200F2FF31 /* DefaultPlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB3D9422F5AE2200EED25D /* DefaultPlacesViewModel.swift */; };
 		3DC3753F22F76CEE00F2FF31 /* libClientAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC3751B22F7694700F2FF31 /* libClientAPI.a */; };
 		3DC3754022F76CF100F2FF31 /* libLocationProvider.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC3750B22F7664400F2FF31 /* libLocationProvider.a */; };
-		3DC3754322F76E0500F2FF31 /* PlaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDE922F5A19A0001A821 /* PlaceStore.swift */; };
-		3DC3754422F76E0C00F2FF31 /* RemotePlaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDED22F5A2940001A821 /* RemotePlaceStore.swift */; };
-		3DC3754522F76E1100F2FF31 /* PlaceApiEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3750422F715F800F2FF31 /* PlaceApiEnvironment.swift */; };
-		3DC3754622F76E1600F2FF31 /* RemotePlaceURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDF122F5A72B0001A821 /* RemotePlaceURLBuilder.swift */; };
-		3DC3754722F76E1B00F2FF31 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDEB22F5A24C0001A821 /* PlaceModel.swift */; };
-		3DC3754822F76E1F00F2FF31 /* APIJsonObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC374FF22F6F83100F2FF31 /* APIJsonObject.swift */; };
-		3DC3754922F76E2300F2FF31 /* PlaceModelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDEF22F5A6B60001A821 /* PlaceModelParser.swift */; };
 		3DC3755022F772A500F2FF31 /* libPlacesScene.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC3753022F76C1900F2FF31 /* libPlacesScene.a */; };
+		3DC3755422F7858700F2FF31 /* PlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3755222F7858700F2FF31 /* PlacesViewModel.swift */; };
+		3DC3755522F7858700F2FF31 /* DefaultPlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3755322F7858700F2FF31 /* DefaultPlacesViewModel.swift */; };
+		3DC3755D22F785A300F2FF31 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3755622F785A300F2FF31 /* PlaceModel.swift */; };
+		3DC3755E22F785A300F2FF31 /* PlaceModelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3755722F785A300F2FF31 /* PlaceModelParser.swift */; };
+		3DC3755F22F785A300F2FF31 /* APIJsonObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3755822F785A300F2FF31 /* APIJsonObject.swift */; };
+		3DC3756022F785A300F2FF31 /* RemotePlaceURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3755922F785A300F2FF31 /* RemotePlaceURLBuilder.swift */; };
+		3DC3756122F785A300F2FF31 /* PlaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3755A22F785A300F2FF31 /* PlaceStore.swift */; };
+		3DC3756222F785A300F2FF31 /* PlaceApiEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3755B22F785A300F2FF31 /* PlaceApiEnvironment.swift */; };
+		3DC3756322F785A300F2FF31 /* RemotePlaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3755C22F785A300F2FF31 /* RemotePlaceStore.swift */; };
+		3DC3756522F785BC00F2FF31 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3756422F785BC00F2FF31 /* PlacesViewController.swift */; };
 		8783620948F791744933F689 /* libPods-AdyenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 994BE41E5CB74A25A84EEFCE /* libPods-AdyenTests.a */; };
 		BCFC96B1927B6193544F8937 /* libPods-Adyen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8194A0D044F8FD19EB88EB3D /* libPods-Adyen.a */; };
 		D6F23903AB734B86FAB77AB5 /* libPods-PlacesScene.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F20F1404AF9FB93A1D99A /* libPods-PlacesScene.a */; };
@@ -141,20 +141,20 @@
 		3D51DDDF22F59AC00001A821 /* URLSession+RequestExecuter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+RequestExecuter.swift"; sourceTree = "<group>"; };
 		3D51DDE322F59C8F0001A821 /* APIResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResource.swift; sourceTree = "<group>"; };
 		3D51DDE522F59D320001A821 /* DefaultAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAPIClient.swift; sourceTree = "<group>"; };
-		3D51DDE922F5A19A0001A821 /* PlaceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaceStore.swift; path = ../../../../PlacesScene/Store/PlaceStore.swift; sourceTree = "<group>"; };
-		3D51DDEB22F5A24C0001A821 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaceModel.swift; path = ../../../../PlacesScene/Store/PlaceModel.swift; sourceTree = "<group>"; };
-		3D51DDED22F5A2940001A821 /* RemotePlaceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RemotePlaceStore.swift; path = ../../../../PlacesScene/Store/RemotePlaceStore.swift; sourceTree = "<group>"; };
-		3D51DDEF22F5A6B60001A821 /* PlaceModelParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaceModelParser.swift; path = ../../../../PlacesScene/Store/PlaceModelParser.swift; sourceTree = "<group>"; };
-		3D51DDF122F5A72B0001A821 /* RemotePlaceURLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RemotePlaceURLBuilder.swift; path = ../../../../PlacesScene/Store/RemotePlaceURLBuilder.swift; sourceTree = "<group>"; };
-		3DC374FF22F6F83100F2FF31 /* APIJsonObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIJsonObject.swift; path = ../../../../PlacesScene/Store/APIJsonObject.swift; sourceTree = "<group>"; };
-		3DC3750422F715F800F2FF31 /* PlaceApiEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaceApiEnvironment.swift; path = ../../../../PlacesScene/Store/PlaceApiEnvironment.swift; sourceTree = "<group>"; };
 		3DC3750B22F7664400F2FF31 /* libLocationProvider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLocationProvider.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC3751B22F7694700F2FF31 /* libClientAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libClientAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC3752A22F76BCE00F2FF31 /* ClientAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientAPI.swift; sourceTree = "<group>"; };
 		3DC3753022F76C1900F2FF31 /* libPlacesScene.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPlacesScene.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DCB3D9122F5AD8800EED25D /* PlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlacesViewModel.swift; path = ../../../../PlacesScene/PlacesViewModel/PlacesViewModel.swift; sourceTree = "<group>"; };
-		3DCB3D9422F5AE2200EED25D /* DefaultPlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DefaultPlacesViewModel.swift; path = ../../../../PlacesScene/PlacesViewModel/DefaultPlacesViewModel.swift; sourceTree = "<group>"; };
-		3DCB3D9722F5B2C000EED25D /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlacesViewController.swift; path = ../../../../PlacesScene/View/PlacesViewController.swift; sourceTree = "<group>"; };
+		3DC3755222F7858700F2FF31 /* PlacesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlacesViewModel.swift; path = PlacesScene/PlacesViewModel/PlacesViewModel.swift; sourceTree = SOURCE_ROOT; };
+		3DC3755322F7858700F2FF31 /* DefaultPlacesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefaultPlacesViewModel.swift; path = PlacesScene/PlacesViewModel/DefaultPlacesViewModel.swift; sourceTree = SOURCE_ROOT; };
+		3DC3755622F785A300F2FF31 /* PlaceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaceModel.swift; path = PlacesScene/Store/PlaceModel.swift; sourceTree = SOURCE_ROOT; };
+		3DC3755722F785A300F2FF31 /* PlaceModelParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaceModelParser.swift; path = PlacesScene/Store/PlaceModelParser.swift; sourceTree = SOURCE_ROOT; };
+		3DC3755822F785A300F2FF31 /* APIJsonObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIJsonObject.swift; path = PlacesScene/Store/APIJsonObject.swift; sourceTree = SOURCE_ROOT; };
+		3DC3755922F785A300F2FF31 /* RemotePlaceURLBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RemotePlaceURLBuilder.swift; path = PlacesScene/Store/RemotePlaceURLBuilder.swift; sourceTree = SOURCE_ROOT; };
+		3DC3755A22F785A300F2FF31 /* PlaceStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaceStore.swift; path = PlacesScene/Store/PlaceStore.swift; sourceTree = SOURCE_ROOT; };
+		3DC3755B22F785A300F2FF31 /* PlaceApiEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaceApiEnvironment.swift; path = PlacesScene/Store/PlaceApiEnvironment.swift; sourceTree = SOURCE_ROOT; };
+		3DC3755C22F785A300F2FF31 /* RemotePlaceStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RemotePlaceStore.swift; path = PlacesScene/Store/RemotePlaceStore.swift; sourceTree = SOURCE_ROOT; };
+		3DC3756422F785BC00F2FF31 /* PlacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlacesViewController.swift; path = PlacesScene/View/PlacesViewController.swift; sourceTree = SOURCE_ROOT; };
 		4E773B8FBB49F87D4012AC1F /* Pods-PlacesScene.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlacesScene.debug.xcconfig"; path = "Target Support Files/Pods-PlacesScene/Pods-PlacesScene.debug.xcconfig"; sourceTree = "<group>"; };
 		606845F802DC0E3ABE3087E7 /* Pods-PlacesScene.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlacesScene.release.xcconfig"; path = "Target Support Files/Pods-PlacesScene/Pods-PlacesScene.release.xcconfig"; sourceTree = "<group>"; };
 		8194A0D044F8FD19EB88EB3D /* libPods-Adyen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Adyen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -321,13 +321,13 @@
 		3D51DDE822F5A1770001A821 /* Store */ = {
 			isa = PBXGroup;
 			children = (
-				3D51DDE922F5A19A0001A821 /* PlaceStore.swift */,
-				3D51DDED22F5A2940001A821 /* RemotePlaceStore.swift */,
-				3DC3750422F715F800F2FF31 /* PlaceApiEnvironment.swift */,
-				3D51DDF122F5A72B0001A821 /* RemotePlaceURLBuilder.swift */,
-				3D51DDEB22F5A24C0001A821 /* PlaceModel.swift */,
-				3DC374FF22F6F83100F2FF31 /* APIJsonObject.swift */,
-				3D51DDEF22F5A6B60001A821 /* PlaceModelParser.swift */,
+				3DC3755822F785A300F2FF31 /* APIJsonObject.swift */,
+				3DC3755B22F785A300F2FF31 /* PlaceApiEnvironment.swift */,
+				3DC3755622F785A300F2FF31 /* PlaceModel.swift */,
+				3DC3755722F785A300F2FF31 /* PlaceModelParser.swift */,
+				3DC3755A22F785A300F2FF31 /* PlaceStore.swift */,
+				3DC3755C22F785A300F2FF31 /* RemotePlaceStore.swift */,
+				3DC3755922F785A300F2FF31 /* RemotePlaceURLBuilder.swift */,
 			);
 			name = Store;
 			path = ../Adyen/Scenes/PlacesScene/Store;
@@ -367,8 +367,8 @@
 		3DCB3D9022F5AD7100EED25D /* PlacesViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				3DCB3D9122F5AD8800EED25D /* PlacesViewModel.swift */,
-				3DCB3D9422F5AE2200EED25D /* DefaultPlacesViewModel.swift */,
+				3DC3755322F7858700F2FF31 /* DefaultPlacesViewModel.swift */,
+				3DC3755222F7858700F2FF31 /* PlacesViewModel.swift */,
 			);
 			name = PlacesViewModel;
 			path = ../Adyen/Scenes/PlacesScene/PlacesViewModel;
@@ -377,7 +377,7 @@
 		3DCB3D9622F5B2AC00EED25D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3DCB3D9722F5B2C000EED25D /* PlacesViewController.swift */,
+				3DC3756422F785BC00F2FF31 /* PlacesViewController.swift */,
 			);
 			name = View;
 			path = ../Adyen/Scenes/PlacesScene/View;
@@ -695,16 +695,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DC3754522F76E1100F2FF31 /* PlaceApiEnvironment.swift in Sources */,
-				3DC3754822F76E1F00F2FF31 /* APIJsonObject.swift in Sources */,
-				3DC3754922F76E2300F2FF31 /* PlaceModelParser.swift in Sources */,
-				3DC3754722F76E1B00F2FF31 /* PlaceModel.swift in Sources */,
-				3DC3753922F76C3A00F2FF31 /* PlacesViewModel.swift in Sources */,
-				3DC3754322F76E0500F2FF31 /* PlaceStore.swift in Sources */,
-				3DC3754622F76E1600F2FF31 /* RemotePlaceURLBuilder.swift in Sources */,
-				3DC3754422F76E0C00F2FF31 /* RemotePlaceStore.swift in Sources */,
-				3DC3753822F76C3500F2FF31 /* PlacesViewController.swift in Sources */,
-				3DC3753A22F76C4200F2FF31 /* DefaultPlacesViewModel.swift in Sources */,
+				3DC3755422F7858700F2FF31 /* PlacesViewModel.swift in Sources */,
+				3DC3755F22F785A300F2FF31 /* APIJsonObject.swift in Sources */,
+				3DC3756522F785BC00F2FF31 /* PlacesViewController.swift in Sources */,
+				3DC3755D22F785A300F2FF31 /* PlaceModel.swift in Sources */,
+				3DC3756222F785A300F2FF31 /* PlaceApiEnvironment.swift in Sources */,
+				3DC3756022F785A300F2FF31 /* RemotePlaceURLBuilder.swift in Sources */,
+				3DC3755E22F785A300F2FF31 /* PlaceModelParser.swift in Sources */,
+				3DC3756122F785A300F2FF31 /* PlaceStore.swift in Sources */,
+				3DC3756322F785A300F2FF31 /* RemotePlaceStore.swift in Sources */,
+				3DC3755522F7858700F2FF31 /* DefaultPlacesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
