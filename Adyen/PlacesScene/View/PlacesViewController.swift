@@ -126,14 +126,26 @@ public class PlacesViewController: UIViewController, MKMapViewDelegate {
     
     private func handle(result: Result<[PlaceModel], Error>) {
         if let places = result.value {
-            let newPins = places.map(getPin(from:))
-            mapView.removeAnnotations(pins)
-            pins = newPins
-            mapView.addAnnotations(pins)
+            handle(places: places)
             isFirstLoad = false
         } else if let error = result.error {
             showError(error: error)
         }
+    }
+    
+    private func handle(places: [PlaceModel]) {
+        let newPins = places.map(getPin(from:))
+        mapView.removeAnnotations(pins)
+        pins = newPins
+        mapView.addAnnotations(pins)
+        if places.isEmpty {
+            showWarning(message: "No Venus found in this area, please try another.")
+        }
+    }
+    
+    private func showWarning(message: String) {
+        let banner = NotificationBanner(title: message, subtitle: "", style: .warning)
+        banner.show()
     }
     
     private func showError(error: Error) {
