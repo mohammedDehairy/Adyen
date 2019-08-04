@@ -9,6 +9,7 @@
 * The app layouting is done with very simple one-line frame calculations instead of Autolayout, because layouting was very simple to use Autolayout IMO.
 * Error handling is merely showing some human friendly message to the user and degrading the user experience and assertionFailure() calles in develop builds, but in a real production app i would send any critical unexpected errors to some kind of monitoring platform like NewRelic, Crashlytics, or simply Google Analytics, and this monitoring platform would be nice to have some kind of alerting system for Critical errors that happen in production.
 * Choose not do much commenting of the code to save time spent on the assignment and in the hope that the code is simple enough to understand with no convoluted logic that needs documenting, but this is definitly room for improvement and choosing not to do much commenting was just a matter of trade off.
+* App Code is divided into 3 main staticLibrary targets "LocationProvider", "ClientAPI", and "PlacesScene", for better encapsulation and separation of concerns.
 * iOS 12.0 is used as the minimum deployment target since iOS 12 adoption rate is 85% on all devices and only 9% for iOS 11 and 6% for the rest according to Apple.
 https://developer.apple.com/support/app-store/
 ## App UX choices
