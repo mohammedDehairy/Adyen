@@ -1,13 +1,10 @@
-platform :ios, '10.0'
+platform :ios, '11.0'
 
 target 'Adyen' do
-
-  # Pods for Adyen
   pod 'NotificationBannerSwift'
 
   target 'AdyenTests' do
     inherit! :search_paths
-    # Pods for testing
   end
 
 end
