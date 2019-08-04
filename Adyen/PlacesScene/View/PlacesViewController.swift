@@ -21,10 +21,16 @@ public class PlacesViewController: UIViewController, MKMapViewDelegate {
         mapView.showsUserLocation = true
         return mapView
     }()
+    private let loadButtonIcon: UIImage
+    var loadButton: UIButton = {
+        UIButton(frame: .zero)
+    }()
     private var pins: [MKPointAnnotation] = []
+    private var isFirstLoad: Bool = true
     
-    public init(viewModel: PlacesViewModel) {
+    public init(viewModel: PlacesViewModel, loadButtonIcon: UIImage) {
         self.viewModel = viewModel
+        self.loadButtonIcon = loadButtonIcon
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -36,12 +42,33 @@ public class PlacesViewController: UIViewController, MKMapViewDelegate {
         super.viewDidLoad()
         setupViewModel()
         setupMapView()
+        setupLoadButton()
         title = "Explore Venus"
     }
     
     override public func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
+        
         mapView.frame = CGRect(origin: .zero, size: view.bounds.size)
+        
+        let buttonOrigin = CGPoint(x: view.bounds.size.width - 60 - view.safeAreaInsets.right, y: view.bounds.size.height - 60 - view.safeAreaInsets.bottom)
+        let buttonSize = CGSize(width: 50, height: 50)
+        loadButton.frame = CGRect(origin: buttonOrigin, size: buttonSize)
+        loadButton.layer.cornerRadius = buttonSize.height * 0.5
+    }
+    
+    // MARK: - Setup the load button
+    
+    private func setupLoadButton() {
+        view.addSubview(loadButton)
+        view.bringSubviewToFront(loadButton)
+        loadButton.setImage(loadButtonIcon, for: .normal)
+        loadButton.backgroundColor = .white
+        loadButton.addTarget(self, action: #selector(didTapOnLoad), for: .touchUpInside)
+    }
+    
+    @objc func didTapOnLoad() {
+        viewModel.didChangeRegion(region: mapView.region)
     }
     
     // MARK: - Setup Map View
@@ -54,6 +81,7 @@ public class PlacesViewController: UIViewController, MKMapViewDelegate {
     // MARK: - MKMapViewDelegate
     
     public func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
+        guard isFirstLoad else { return }
         viewModel.didChangeRegion(region: mapView.region)
     }
     
@@ -102,6 +130,7 @@ public class PlacesViewController: UIViewController, MKMapViewDelegate {
             mapView.removeAnnotations(pins)
             pins = newPins
             mapView.addAnnotations(pins)
+            isFirstLoad = false
         } else if let error = result.error {
             showError(error: error)
         }

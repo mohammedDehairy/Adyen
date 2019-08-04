@@ -25,7 +25,7 @@ class RootViewController: UIViewController {
     }()
     
     lazy var placesViewController: PlacesViewController = {
-        return PlacesViewController(viewModel: placesViewModel)
+        return PlacesViewController(viewModel: placesViewModel, loadButtonIcon: UIImage(named: "loading_icon")!)
     }()
     
     lazy var naviController: UINavigationController = {
