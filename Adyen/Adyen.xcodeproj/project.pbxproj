@@ -329,8 +329,7 @@
 				3DC3755C22F785A300F2FF31 /* RemotePlaceStore.swift */,
 				3DC3755922F785A300F2FF31 /* RemotePlaceURLBuilder.swift */,
 			);
-			name = Store;
-			path = ../Adyen/Scenes/PlacesScene/Store;
+			path = Store;
 			sourceTree = "<group>";
 		};
 		3DC3750C22F7664400F2FF31 /* LocationProvider */ = {
