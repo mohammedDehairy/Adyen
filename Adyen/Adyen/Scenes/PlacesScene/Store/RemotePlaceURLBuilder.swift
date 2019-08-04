@@ -9,10 +9,11 @@
 import MapKit
 
 struct RemotePlaceURLBuilder {
+    let environment: PlaceApiEnvironment
     func build(query: PlaceQuery) -> String {
         let ll = "\(query.region.center.latitude),\(query.region.center.longitude)"
         let radius = getRadius(from: query.region)
-        return "https://api.foursquare.com/v2/venues/explore?ll=\(ll)&radius=\(radius)&limit=\(query.limit)&client_id=11UWH4D0OHIDVOIL2F1NC5OUABVEED3VTOEOVLSPGHI3LKQB&client_secret=B4RQ2D3CI0ZVQFM5C2OJKH5IN01MX3GJSMO0PT5A0RY0RLDZ&v=20190803"
+        return "\(environment.host)/v2/venues/explore?ll=\(ll)&radius=\(radius)&limit=\(query.limit)&client_id=\(environment.credentials.id)&client_secret=\(environment.credentials.secret)&v=20190803"
     }
     
     func getRadius(from region: MKCoordinateRegion) -> Int {

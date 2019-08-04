@@ -11,18 +11,23 @@ import MapKit
 
 final class RemotePlaceStore: PlaceStore {
     private let clientApi: APIClient
+    private let environment: PlaceApiEnvironment
     
     enum RemotePlaceStoreError: Error {
         case inValidUrl
     }
     
-    init(clientApi: APIClient) {
+    init(
+        clientApi: APIClient,
+        environment: PlaceApiEnvironment = PlaceApiEnvironment.default
+    ) {
         self.clientApi = clientApi
+        self.environment = environment
     }
     
     @discardableResult
     func get(with query: PlaceQuery, completion: @escaping ((Result<[PlaceModel], Error>) -> Void)) -> Cancelable {
-        let urlStr = RemotePlaceURLBuilder().build(query: query)
+        let urlStr = RemotePlaceURLBuilder(environment: environment).build(query: query)
         guard let url = URL(string: urlStr) else {
             assertionFailure("URL is nil")
             completion(.failure(RemotePlaceStoreError.inValidUrl))
