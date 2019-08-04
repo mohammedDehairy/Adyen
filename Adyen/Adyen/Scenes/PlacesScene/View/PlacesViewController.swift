@@ -91,7 +91,7 @@ class PlacesViewController: UIViewController, MKMapViewDelegate {
     }
     
     private func handle(userLocation: CLLocation) {
-        let initailRegion = MKCoordinateRegion(center: userLocation.coordinate, latitudinalMeters: 100000, longitudinalMeters: 100000)
+        let initailRegion = MKCoordinateRegion(center: userLocation.coordinate, latitudinalMeters: 10000, longitudinalMeters: 10000)
         mapView.setRegion(initailRegion, animated: false)
         viewModel.updateUserLocation = nil
     }

@@ -51,6 +51,8 @@
 		3D51DDEE22F5A2940001A821 /* RemotePlaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDED22F5A2940001A821 /* RemotePlaceStore.swift */; };
 		3D51DDF022F5A6B60001A821 /* PlaceModelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDEF22F5A6B60001A821 /* PlaceModelParser.swift */; };
 		3D51DDF222F5A72B0001A821 /* RemotePlaceURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDF122F5A72B0001A821 /* RemotePlaceURLBuilder.swift */; };
+		3DC3750022F6F83100F2FF31 /* APIJsonObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC374FF22F6F83100F2FF31 /* APIJsonObject.swift */; };
+		3DC3750122F6F83100F2FF31 /* APIJsonObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC374FF22F6F83100F2FF31 /* APIJsonObject.swift */; };
 		3DCB3D9222F5AD8800EED25D /* PlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB3D9122F5AD8800EED25D /* PlacesViewModel.swift */; };
 		3DCB3D9522F5AE2200EED25D /* DefaultPlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB3D9422F5AE2200EED25D /* DefaultPlacesViewModel.swift */; };
 		3DCB3D9822F5B2C000EED25D /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB3D9722F5B2C000EED25D /* PlacesViewController.swift */; };
@@ -104,6 +106,7 @@
 		3D51DDED22F5A2940001A821 /* RemotePlaceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotePlaceStore.swift; sourceTree = "<group>"; };
 		3D51DDEF22F5A6B60001A821 /* PlaceModelParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModelParser.swift; sourceTree = "<group>"; };
 		3D51DDF122F5A72B0001A821 /* RemotePlaceURLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotePlaceURLBuilder.swift; sourceTree = "<group>"; };
+		3DC374FF22F6F83100F2FF31 /* APIJsonObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIJsonObject.swift; sourceTree = "<group>"; };
 		3DCB3D9122F5AD8800EED25D /* PlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewModel.swift; sourceTree = "<group>"; };
 		3DCB3D9422F5AE2200EED25D /* DefaultPlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPlacesViewModel.swift; sourceTree = "<group>"; };
 		3DCB3D9722F5B2C000EED25D /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
@@ -292,6 +295,7 @@
 				3D51DDED22F5A2940001A821 /* RemotePlaceStore.swift */,
 				3D51DDF122F5A72B0001A821 /* RemotePlaceURLBuilder.swift */,
 				3D51DDEB22F5A24C0001A821 /* PlaceModel.swift */,
+				3DC374FF22F6F83100F2FF31 /* APIJsonObject.swift */,
 				3D51DDEF22F5A6B60001A821 /* PlaceModelParser.swift */,
 			);
 			path = Store;
@@ -479,6 +483,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DCB3D9522F5AE2200EED25D /* DefaultPlacesViewModel.swift in Sources */,
+				3DC3750022F6F83100F2FF31 /* APIJsonObject.swift in Sources */,
 				3D51DDBD22F599840001A821 /* RootViewController.swift in Sources */,
 				3D0ACC2822F5D9E200AFB158 /* DefaultLocationProvider.swift in Sources */,
 				3D51DDEA22F5A19A0001A821 /* PlaceStore.swift in Sources */,
@@ -520,6 +525,7 @@
 				3D0ACC3C22F6091200AFB158 /* APIClient.swift in Sources */,
 				3D0ACC2F22F6017200AFB158 /* PlaceStoreMock.swift in Sources */,
 				3D0ACC5122F6200B00AFB158 /* DefaultAPIClient.swift in Sources */,
+				3DC3750122F6F83100F2FF31 /* APIJsonObject.swift in Sources */,
 				3D0ACC3022F6018600AFB158 /* PlaceStore.swift in Sources */,
 				3D0ACC5022F61FF900AFB158 /* DefaultAPIClientTest.swift in Sources */,
 				3D0ACC5322F6203700AFB158 /* RequestExecuterMock.swift in Sources */,

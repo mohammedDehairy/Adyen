@@ -11,20 +11,9 @@ import MapKit
 enum ParsingError: LocalizedError {
     case nilData
     case invalidJson
-    case noResponseObject
-    case noItemsObject
-    case noVenuObject
-    case noVenuId
-    case noVenuName
-    case noLocationObject
-    case noLat
-    case noLng
     case noCategoriesObject
-    case noCategoryName
-    case noStatusCode
     case noErrorDetails
     case apiError(message: String)
-    case noMetaObject
     
     public var errorDescription: String? {
         switch self {
@@ -41,19 +30,13 @@ func parse(data: Data?) -> Result<[PlaceModel], Error> {
         assertionFailure("Invalid data")
         return .failure(ParsingError.nilData)
     }
-    guard let json = try? JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] else {
+    guard let jsonObject = try? JSONDecoder().decode(APIJsonObject.self, from: data) else {
         assertionFailure("Invalid json")
         return .failure(ParsingError.invalidJson)
     }
-    guard let response = json["response"] as? [String: Any] else {
-        assertionFailure("Invalid json")
-        return .failure(ParsingError.noResponseObject)
-    }
-    guard let meta = json["meta"] as? [String: Any] else {
-        assertionFailure("Invalid json")
-        return .failure(ParsingError.noMetaObject)
-    }
-    guard let groups = response["groups"] as? [[String: Any]] else {
+    let response = jsonObject.response
+    let meta = jsonObject.meta
+    guard let groups = response.groups else {
         return parse(meta: meta)
     }
     let places: [PlaceModel] = groups.reduce([]) { result, group in
@@ -65,13 +48,10 @@ func parse(data: Data?) -> Result<[PlaceModel], Error> {
     return .success(places)
 }
 
-private func parse(meta: [String: Any]) -> Result<[PlaceModel], Error> {
-    guard let code = meta["code"] as? Int else {
-        assertionFailure("Invalid json")
-        return .failure(ParsingError.noStatusCode)
-    }
+private func parse(meta: Meta) -> Result<[PlaceModel], Error> {
+    let code = meta.code
     if code != 200 {
-        guard let errorDetail = meta["errorDetail"] as? String else {
+        guard let errorDetail = meta.errorDetail else {
             assertionFailure("Invalid json")
             return .failure(ParsingError.noErrorDetails)
         }
@@ -80,11 +60,8 @@ private func parse(meta: [String: Any]) -> Result<[PlaceModel], Error> {
     return .success([])
 }
 
-private func parse(group: [String: Any]) -> Result<[PlaceModel], Error> {
-    guard let items = group["items"] as? [[String: Any]] else {
-        assertionFailure("Invalid json")
-        return .failure(ParsingError.noItemsObject)
-    }
+private func parse(group: Group) -> Result<[PlaceModel], Error> {
+    let items = group.items
     let places: [PlaceModel] = items.reduce([]) { result, item in
         guard let place = parse(item: item).value else { return result }
         var result = result
@@ -94,39 +71,18 @@ private func parse(group: [String: Any]) -> Result<[PlaceModel], Error> {
     return .success(places)
 }
 
-private func parse(item: [String: Any]) -> Result<PlaceModel, Error> {
-    guard let venu = item["venue"] as? [String: Any] else {
-        assertionFailure("Invalid json")
-        return .failure(ParsingError.noVenuObject)
-    }
-    guard let id = venu["id"] as? String else {
-        assertionFailure("Invalid json")
-        return .failure(ParsingError.noVenuId)
-    }
-    guard let name = venu["name"] as? String else {
-        assertionFailure("Invalid json")
-        return .failure(ParsingError.noVenuName)
-    }
-    guard let locationDic = venu["location"] as? [String: Any] else {
-        assertionFailure("Invalid json")
-        return .failure(ParsingError.noLocationObject)
-    }
-    guard let latitude = locationDic["lat"] as? Double else {
-        assertionFailure("Invalid json")
-        return .failure(ParsingError.noLat)
-    }
-    guard let longitude = locationDic["lng"] as? Double else {
-        assertionFailure("Invalid json")
-        return .failure(ParsingError.noLng)
-    }
+private func parse(item: Item) -> Result<PlaceModel, Error> {
+    let venu = item.venue
+    let id = venu.id
+    let name = venu.name
+    let location = venu.location
+    let latitude = location.lat
+    let longitude = location.lng
     let coordinate = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
-    guard let category = (venu["categories"] as? [[String: Any]])?.first else {
+    guard let category = venu.categories.first else {
         assertionFailure("Invalid json")
         return .failure(ParsingError.noCategoriesObject)
     }
-    guard let categoryString = category["name"] as? String else {
-        assertionFailure("Invalid json")
-        return .failure(ParsingError.noCategoryName)
-    }
-    return .success(PlaceModel(id: id, name: name, coordinate: coordinate, category: categoryString))
+    let categoryName = category.name
+    return .success(PlaceModel(id: id, name: name, coordinate: coordinate, category: categoryName))
 }
