@@ -8,6 +8,7 @@
 
 import XCTest
 import MapKit
+@testable import PlacesScene
 
 class PlacesViewControllerTest: XCTestCase {
 
@@ -28,7 +29,7 @@ class PlacesViewControllerTest: XCTestCase {
         
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + .seconds(5)) {
             let annotations = sut.mapView.annotations
-            XCTAssertEqual(Set(annotations.map { $0.title }), Set(expectedPlaces.map { $0.name }))
+            XCTAssertTrue(Set(annotations.map { $0.title }).isSuperset(of: Set(expectedPlaces.map { $0.name })))
             expectation1.fulfill()
         }
         

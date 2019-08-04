@@ -7,34 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A32A60542EA9DBCA0F85CC7 /* libPods-AdyenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7BDB955551F9CE6FC39F81D /* libPods-AdyenTests.a */; };
-		195EB5057165A8D40853DEEA /* libPods-Adyen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5EBB72DCF09E5A34E91980 /* libPods-Adyen.a */; };
-		3D0ACC2622F5D9AA00AFB158 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC2522F5D9AA00AFB158 /* LocationProvider.swift */; };
-		3D0ACC2822F5D9E200AFB158 /* DefaultLocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC2722F5D9E200AFB158 /* DefaultLocationProvider.swift */; };
 		3D0ACC2C22F6012100AFB158 /* DefaultPlacesViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC2B22F6012100AFB158 /* DefaultPlacesViewModelTest.swift */; };
-		3D0ACC2D22F6014C00AFB158 /* DefaultPlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB3D9422F5AE2200EED25D /* DefaultPlacesViewModel.swift */; };
 		3D0ACC2F22F6017200AFB158 /* PlaceStoreMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC2E22F6017200AFB158 /* PlaceStoreMock.swift */; };
-		3D0ACC3022F6018600AFB158 /* PlaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDE922F5A19A0001A821 /* PlaceStore.swift */; };
-		3D0ACC3122F6019900AFB158 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDEB22F5A24C0001A821 /* PlaceModel.swift */; };
-		3D0ACC3222F601A400AFB158 /* RequestExecuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDDD22F599D70001A821 /* RequestExecuter.swift */; };
 		3D0ACC3422F6028500AFB158 /* LocationProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC3322F6028500AFB158 /* LocationProviderMock.swift */; };
-		3D0ACC3522F6029300AFB158 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC2522F5D9AA00AFB158 /* LocationProvider.swift */; };
-		3D0ACC3622F607F200AFB158 /* PlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB3D9122F5AD8800EED25D /* PlacesViewModel.swift */; };
 		3D0ACC3A22F6090100AFB158 /* RemotePlaceStoreTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC3922F6090100AFB158 /* RemotePlaceStoreTest.swift */; };
-		3D0ACC3B22F6090900AFB158 /* RemotePlaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDED22F5A2940001A821 /* RemotePlaceStore.swift */; };
-		3D0ACC3C22F6091200AFB158 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDE122F59C560001A821 /* APIClient.swift */; };
-		3D0ACC3D22F6093300AFB158 /* RemotePlaceURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDF122F5A72B0001A821 /* RemotePlaceURLBuilder.swift */; };
 		3D0ACC3F22F6094300AFB158 /* APIClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC3E22F6094300AFB158 /* APIClientMock.swift */; };
-		3D0ACC4022F6096500AFB158 /* APIResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDE322F59C8F0001A821 /* APIResource.swift */; };
-		3D0ACC4122F60BF900AFB158 /* PlaceModelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDEF22F5A6B60001A821 /* PlaceModelParser.swift */; };
 		3D0ACC4322F60EA500AFB158 /* RemotePlaceURLBuilderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC4222F60EA500AFB158 /* RemotePlaceURLBuilderTest.swift */; };
 		3D0ACC4522F612D600AFB158 /* PlaceModelParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC4422F612D600AFB158 /* PlaceModelParserTest.swift */; };
 		3D0ACC4722F6135600AFB158 /* test_places_success.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D0ACC4622F6135600AFB158 /* test_places_success.json */; };
 		3D0ACC4A22F6156D00AFB158 /* PlacesViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC4922F6156D00AFB158 /* PlacesViewControllerTest.swift */; };
-		3D0ACC4B22F6158300AFB158 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB3D9722F5B2C000EED25D /* PlacesViewController.swift */; };
 		3D0ACC4D22F615AA00AFB158 /* PlacesViewModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC4C22F615AA00AFB158 /* PlacesViewModelMock.swift */; };
 		3D0ACC5022F61FF900AFB158 /* DefaultAPIClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC4F22F61FF900AFB158 /* DefaultAPIClientTest.swift */; };
-		3D0ACC5122F6200B00AFB158 /* DefaultAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDE522F59D320001A821 /* DefaultAPIClient.swift */; };
 		3D0ACC5322F6203700AFB158 /* RequestExecuterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC5222F6203700AFB158 /* RequestExecuterMock.swift */; };
 		3D0ACC5522F622BE00AFB158 /* test_places_error.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D0ACC5422F622BE00AFB158 /* test_places_error.json */; };
 		3D51DDBB22F599840001A821 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDBA22F599840001A821 /* AppDelegate.swift */; };
@@ -42,23 +25,29 @@
 		3D51DDC022F599840001A821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D51DDBE22F599840001A821 /* Main.storyboard */; };
 		3D51DDC222F599860001A821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D51DDC122F599860001A821 /* Assets.xcassets */; };
 		3D51DDC522F599860001A821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D51DDC322F599860001A821 /* LaunchScreen.storyboard */; };
-		3D51DDDE22F599D70001A821 /* RequestExecuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDDD22F599D70001A821 /* RequestExecuter.swift */; };
-		3D51DDE022F59AC00001A821 /* URLSession+RequestExecuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDDF22F59AC00001A821 /* URLSession+RequestExecuter.swift */; };
-		3D51DDE222F59C560001A821 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDE122F59C560001A821 /* APIClient.swift */; };
-		3D51DDE422F59C8F0001A821 /* APIResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDE322F59C8F0001A821 /* APIResource.swift */; };
-		3D51DDE622F59D320001A821 /* DefaultAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDE522F59D320001A821 /* DefaultAPIClient.swift */; };
-		3D51DDEA22F5A19A0001A821 /* PlaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDE922F5A19A0001A821 /* PlaceStore.swift */; };
-		3D51DDEC22F5A24C0001A821 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDEB22F5A24C0001A821 /* PlaceModel.swift */; };
-		3D51DDEE22F5A2940001A821 /* RemotePlaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDED22F5A2940001A821 /* RemotePlaceStore.swift */; };
-		3D51DDF022F5A6B60001A821 /* PlaceModelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDEF22F5A6B60001A821 /* PlaceModelParser.swift */; };
-		3D51DDF222F5A72B0001A821 /* RemotePlaceURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDF122F5A72B0001A821 /* RemotePlaceURLBuilder.swift */; };
-		3DC3750022F6F83100F2FF31 /* APIJsonObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC374FF22F6F83100F2FF31 /* APIJsonObject.swift */; };
-		3DC3750122F6F83100F2FF31 /* APIJsonObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC374FF22F6F83100F2FF31 /* APIJsonObject.swift */; };
-		3DC3750522F715F800F2FF31 /* PlaceApiEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3750422F715F800F2FF31 /* PlaceApiEnvironment.swift */; };
-		3DC3750622F715F800F2FF31 /* PlaceApiEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3750422F715F800F2FF31 /* PlaceApiEnvironment.swift */; };
-		3DCB3D9222F5AD8800EED25D /* PlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB3D9122F5AD8800EED25D /* PlacesViewModel.swift */; };
-		3DCB3D9522F5AE2200EED25D /* DefaultPlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB3D9422F5AE2200EED25D /* DefaultPlacesViewModel.swift */; };
-		3DCB3D9822F5B2C000EED25D /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB3D9722F5B2C000EED25D /* PlacesViewController.swift */; };
+		3DC3751222F7666F00F2FF31 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC2522F5D9AA00AFB158 /* LocationProvider.swift */; };
+		3DC3751322F7667B00F2FF31 /* DefaultLocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ACC2722F5D9E200AFB158 /* DefaultLocationProvider.swift */; };
+		3DC3752222F7695C00F2FF31 /* RequestExecuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDDD22F599D70001A821 /* RequestExecuter.swift */; };
+		3DC3752322F7696300F2FF31 /* URLSession+RequestExecuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDDF22F59AC00001A821 /* URLSession+RequestExecuter.swift */; };
+		3DC3752522F7696F00F2FF31 /* DefaultAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDE522F59D320001A821 /* DefaultAPIClient.swift */; };
+		3DC3752622F7697400F2FF31 /* APIResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDE322F59C8F0001A821 /* APIResource.swift */; };
+		3DC3752B22F76BCE00F2FF31 /* ClientAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3752A22F76BCE00F2FF31 /* ClientAPI.swift */; };
+		3DC3753822F76C3500F2FF31 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB3D9722F5B2C000EED25D /* PlacesViewController.swift */; };
+		3DC3753922F76C3A00F2FF31 /* PlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB3D9122F5AD8800EED25D /* PlacesViewModel.swift */; };
+		3DC3753A22F76C4200F2FF31 /* DefaultPlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB3D9422F5AE2200EED25D /* DefaultPlacesViewModel.swift */; };
+		3DC3753F22F76CEE00F2FF31 /* libClientAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC3751B22F7694700F2FF31 /* libClientAPI.a */; };
+		3DC3754022F76CF100F2FF31 /* libLocationProvider.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC3750B22F7664400F2FF31 /* libLocationProvider.a */; };
+		3DC3754322F76E0500F2FF31 /* PlaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDE922F5A19A0001A821 /* PlaceStore.swift */; };
+		3DC3754422F76E0C00F2FF31 /* RemotePlaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDED22F5A2940001A821 /* RemotePlaceStore.swift */; };
+		3DC3754522F76E1100F2FF31 /* PlaceApiEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3750422F715F800F2FF31 /* PlaceApiEnvironment.swift */; };
+		3DC3754622F76E1600F2FF31 /* RemotePlaceURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDF122F5A72B0001A821 /* RemotePlaceURLBuilder.swift */; };
+		3DC3754722F76E1B00F2FF31 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDEB22F5A24C0001A821 /* PlaceModel.swift */; };
+		3DC3754822F76E1F00F2FF31 /* APIJsonObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC374FF22F6F83100F2FF31 /* APIJsonObject.swift */; };
+		3DC3754922F76E2300F2FF31 /* PlaceModelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51DDEF22F5A6B60001A821 /* PlaceModelParser.swift */; };
+		3DC3755022F772A500F2FF31 /* libPlacesScene.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC3753022F76C1900F2FF31 /* libPlacesScene.a */; };
+		8783620948F791744933F689 /* libPods-AdyenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 994BE41E5CB74A25A84EEFCE /* libPods-AdyenTests.a */; };
+		BCFC96B1927B6193544F8937 /* libPods-Adyen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8194A0D044F8FD19EB88EB3D /* libPods-Adyen.a */; };
+		D6F23903AB734B86FAB77AB5 /* libPods-PlacesScene.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F20F1404AF9FB93A1D99A /* libPods-PlacesScene.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,9 +58,61 @@
 			remoteGlobalIDString = 3D51DDB622F599840001A821;
 			remoteInfo = Adyen;
 		};
+		3DC3754A22F7721400F2FF31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D51DDAF22F599840001A821 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DC3750A22F7664400F2FF31;
+			remoteInfo = LocationProvider;
+		};
+		3DC3754C22F7721400F2FF31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D51DDAF22F599840001A821 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DC3751A22F7694700F2FF31;
+			remoteInfo = ClientAPI;
+		};
+		3DC3754E22F772A100F2FF31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D51DDAF22F599840001A821 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DC3752F22F76C1900F2FF31;
+			remoteInfo = PlacesScene;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3DC3750922F7664400F2FF31 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC3751922F7694700F2FF31 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC3752E22F76C1900F2FF31 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3977A60520E1C130F0E3A7E9 /* Pods-Adyen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adyen.release.xcconfig"; path = "Target Support Files/Pods-Adyen/Pods-Adyen.release.xcconfig"; sourceTree = "<group>"; };
 		3D0ACC2522F5D9AA00AFB158 /* LocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
 		3D0ACC2722F5D9E200AFB158 /* DefaultLocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultLocationProvider.swift; sourceTree = "<group>"; };
 		3D0ACC2B22F6012100AFB158 /* DefaultPlacesViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPlacesViewModelTest.swift; sourceTree = "<group>"; };
@@ -98,25 +139,30 @@
 		3D51DDD122F599860001A821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D51DDDD22F599D70001A821 /* RequestExecuter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestExecuter.swift; sourceTree = "<group>"; };
 		3D51DDDF22F59AC00001A821 /* URLSession+RequestExecuter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+RequestExecuter.swift"; sourceTree = "<group>"; };
-		3D51DDE122F59C560001A821 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		3D51DDE322F59C8F0001A821 /* APIResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResource.swift; sourceTree = "<group>"; };
 		3D51DDE522F59D320001A821 /* DefaultAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAPIClient.swift; sourceTree = "<group>"; };
-		3D51DDE922F5A19A0001A821 /* PlaceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceStore.swift; sourceTree = "<group>"; };
-		3D51DDEB22F5A24C0001A821 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
-		3D51DDED22F5A2940001A821 /* RemotePlaceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotePlaceStore.swift; sourceTree = "<group>"; };
-		3D51DDEF22F5A6B60001A821 /* PlaceModelParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModelParser.swift; sourceTree = "<group>"; };
-		3D51DDF122F5A72B0001A821 /* RemotePlaceURLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotePlaceURLBuilder.swift; sourceTree = "<group>"; };
-		3DC374FF22F6F83100F2FF31 /* APIJsonObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIJsonObject.swift; sourceTree = "<group>"; };
-		3DC3750422F715F800F2FF31 /* PlaceApiEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceApiEnvironment.swift; sourceTree = "<group>"; };
-		3DCB3D9122F5AD8800EED25D /* PlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewModel.swift; sourceTree = "<group>"; };
-		3DCB3D9422F5AE2200EED25D /* DefaultPlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPlacesViewModel.swift; sourceTree = "<group>"; };
-		3DCB3D9722F5B2C000EED25D /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
-		831125F30964A30F12537B8D /* Pods-Adyen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adyen.debug.xcconfig"; path = "Target Support Files/Pods-Adyen/Pods-Adyen.debug.xcconfig"; sourceTree = "<group>"; };
-		C4ACC7AEAC03D4C0353756EA /* Pods-AdyenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdyenTests.release.xcconfig"; path = "Target Support Files/Pods-AdyenTests/Pods-AdyenTests.release.xcconfig"; sourceTree = "<group>"; };
-		D30ED64B6CA0D916F2B7CDD4 /* Pods-Adyen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adyen.release.xcconfig"; path = "Target Support Files/Pods-Adyen/Pods-Adyen.release.xcconfig"; sourceTree = "<group>"; };
-		D7BDB955551F9CE6FC39F81D /* libPods-AdyenTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdyenTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD5EBB72DCF09E5A34E91980 /* libPods-Adyen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Adyen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F707F71BDEE0E99E748C2AD4 /* Pods-AdyenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdyenTests.debug.xcconfig"; path = "Target Support Files/Pods-AdyenTests/Pods-AdyenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D51DDE922F5A19A0001A821 /* PlaceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaceStore.swift; path = ../../../../PlacesScene/Store/PlaceStore.swift; sourceTree = "<group>"; };
+		3D51DDEB22F5A24C0001A821 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaceModel.swift; path = ../../../../PlacesScene/Store/PlaceModel.swift; sourceTree = "<group>"; };
+		3D51DDED22F5A2940001A821 /* RemotePlaceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RemotePlaceStore.swift; path = ../../../../PlacesScene/Store/RemotePlaceStore.swift; sourceTree = "<group>"; };
+		3D51DDEF22F5A6B60001A821 /* PlaceModelParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaceModelParser.swift; path = ../../../../PlacesScene/Store/PlaceModelParser.swift; sourceTree = "<group>"; };
+		3D51DDF122F5A72B0001A821 /* RemotePlaceURLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RemotePlaceURLBuilder.swift; path = ../../../../PlacesScene/Store/RemotePlaceURLBuilder.swift; sourceTree = "<group>"; };
+		3DC374FF22F6F83100F2FF31 /* APIJsonObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIJsonObject.swift; path = ../../../../PlacesScene/Store/APIJsonObject.swift; sourceTree = "<group>"; };
+		3DC3750422F715F800F2FF31 /* PlaceApiEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaceApiEnvironment.swift; path = ../../../../PlacesScene/Store/PlaceApiEnvironment.swift; sourceTree = "<group>"; };
+		3DC3750B22F7664400F2FF31 /* libLocationProvider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLocationProvider.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC3751B22F7694700F2FF31 /* libClientAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libClientAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC3752A22F76BCE00F2FF31 /* ClientAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientAPI.swift; sourceTree = "<group>"; };
+		3DC3753022F76C1900F2FF31 /* libPlacesScene.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPlacesScene.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCB3D9122F5AD8800EED25D /* PlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlacesViewModel.swift; path = ../../../../PlacesScene/PlacesViewModel/PlacesViewModel.swift; sourceTree = "<group>"; };
+		3DCB3D9422F5AE2200EED25D /* DefaultPlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DefaultPlacesViewModel.swift; path = ../../../../PlacesScene/PlacesViewModel/DefaultPlacesViewModel.swift; sourceTree = "<group>"; };
+		3DCB3D9722F5B2C000EED25D /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlacesViewController.swift; path = ../../../../PlacesScene/View/PlacesViewController.swift; sourceTree = "<group>"; };
+		4E773B8FBB49F87D4012AC1F /* Pods-PlacesScene.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlacesScene.debug.xcconfig"; path = "Target Support Files/Pods-PlacesScene/Pods-PlacesScene.debug.xcconfig"; sourceTree = "<group>"; };
+		606845F802DC0E3ABE3087E7 /* Pods-PlacesScene.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlacesScene.release.xcconfig"; path = "Target Support Files/Pods-PlacesScene/Pods-PlacesScene.release.xcconfig"; sourceTree = "<group>"; };
+		8194A0D044F8FD19EB88EB3D /* libPods-Adyen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Adyen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		994BE41E5CB74A25A84EEFCE /* libPods-AdyenTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdyenTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10F20F1404AF9FB93A1D99A /* libPods-PlacesScene.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlacesScene.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A8A4B929DAD7A8E2F08705 /* Pods-Adyen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adyen.debug.xcconfig"; path = "Target Support Files/Pods-Adyen/Pods-Adyen.debug.xcconfig"; sourceTree = "<group>"; };
+		B7CBB0B8B8DA7DBFC15E323B /* Pods-AdyenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdyenTests.debug.xcconfig"; path = "Target Support Files/Pods-AdyenTests/Pods-AdyenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBCD0205254E4A41B488997F /* Pods-AdyenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdyenTests.release.xcconfig"; path = "Target Support Files/Pods-AdyenTests/Pods-AdyenTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +170,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				195EB5057165A8D40853DEEA /* libPods-Adyen.a in Frameworks */,
+				3DC3755022F772A500F2FF31 /* libPlacesScene.a in Frameworks */,
+				BCFC96B1927B6193544F8937 /* libPods-Adyen.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,23 +179,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A32A60542EA9DBCA0F85CC7 /* libPods-AdyenTests.a in Frameworks */,
+				8783620948F791744933F689 /* libPods-AdyenTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC3750822F7664400F2FF31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC3751822F7694700F2FF31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC3752D22F76C1900F2FF31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC3754022F76CF100F2FF31 /* libLocationProvider.a in Frameworks */,
+				3DC3753F22F76CEE00F2FF31 /* libClientAPI.a in Frameworks */,
+				D6F23903AB734B86FAB77AB5 /* libPods-PlacesScene.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3D0ACC2422F5D99200AFB158 /* LocationProvider */ = {
-			isa = PBXGroup;
-			children = (
-				3D0ACC2522F5D9AA00AFB158 /* LocationProvider.swift */,
-				3D0ACC3322F6028500AFB158 /* LocationProviderMock.swift */,
-				3D0ACC2722F5D9E200AFB158 /* DefaultLocationProvider.swift */,
-			);
-			path = LocationProvider;
-			sourceTree = "<group>";
-		};
 		3D0ACC2922F600F900AFB158 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +221,7 @@
 		3D0ACC2A22F6010500AFB158 /* PlacesViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				3D0ACC4C22F615AA00AFB158 /* PlacesViewModelMock.swift */,
 				3D0ACC2B22F6012100AFB158 /* DefaultPlacesViewModelTest.swift */,
 			);
 			path = PlacesViewModel;
@@ -168,6 +230,7 @@
 		3D0ACC3722F608DD00AFB158 /* Store */ = {
 			isa = PBXGroup;
 			children = (
+				3D0ACC2E22F6017200AFB158 /* PlaceStoreMock.swift */,
 				3D0ACC3922F6090100AFB158 /* RemotePlaceStoreTest.swift */,
 				3D0ACC4222F60EA500AFB158 /* RemotePlaceURLBuilderTest.swift */,
 				3D0ACC4422F612D600AFB158 /* PlaceModelParserTest.swift */,
@@ -198,6 +261,8 @@
 		3D0ACC4E22F61FDB00AFB158 /* ClientAPI */ = {
 			isa = PBXGroup;
 			children = (
+				3D0ACC5222F6203700AFB158 /* RequestExecuterMock.swift */,
+				3D0ACC3E22F6094300AFB158 /* APIClientMock.swift */,
 				3D0ACC4F22F61FF900AFB158 /* DefaultAPIClientTest.swift */,
 			);
 			path = ClientAPI;
@@ -207,10 +272,13 @@
 			isa = PBXGroup;
 			children = (
 				3D51DDB922F599840001A821 /* Adyen */,
+				3DC3750C22F7664400F2FF31 /* LocationProvider */,
+				3DC3751C22F7694700F2FF31 /* ClientAPI */,
+				3DC3753122F76C1900F2FF31 /* PlacesScene */,
 				3D51DDCE22F599860001A821 /* AdyenTests */,
 				3D51DDB822F599840001A821 /* Products */,
 				ACFE68F81532227D31CE3962 /* Pods */,
-				66AD19EBAEAB8E6173DE1041 /* Frameworks */,
+				7FE61A4230E6F711C20EF12A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -219,6 +287,9 @@
 			children = (
 				3D51DDB722F599840001A821 /* Adyen.app */,
 				3D51DDCB22F599860001A821 /* AdyenTests.xctest */,
+				3DC3750B22F7664400F2FF31 /* libLocationProvider.a */,
+				3DC3751B22F7694700F2FF31 /* libClientAPI.a */,
+				3DC3753022F76C1900F2FF31 /* libPlacesScene.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -226,9 +297,6 @@
 		3D51DDB922F599840001A821 /* Adyen */ = {
 			isa = PBXGroup;
 			children = (
-				3D0ACC2422F5D99200AFB158 /* LocationProvider */,
-				3D51DDDC22F599B40001A821 /* ClientAPI */,
-				3D51DDDA22F599930001A821 /* Scenes */,
 				3D51DDBA22F599840001A821 /* AppDelegate.swift */,
 				3D51DDBC22F599840001A821 /* RootViewController.swift */,
 				3D51DDBE22F599840001A821 /* Main.storyboard */,
@@ -242,6 +310,7 @@
 		3D51DDCE22F599860001A821 /* AdyenTests */ = {
 			isa = PBXGroup;
 			children = (
+				3D0ACC3322F6028500AFB158 /* LocationProviderMock.swift */,
 				3D0ACC4E22F61FDB00AFB158 /* ClientAPI */,
 				3D0ACC2922F600F900AFB158 /* Scenes */,
 				3D51DDD122F599860001A821 /* Info.plist */,
@@ -249,15 +318,43 @@
 			path = AdyenTests;
 			sourceTree = "<group>";
 		};
-		3D51DDDA22F599930001A821 /* Scenes */ = {
+		3D51DDE822F5A1770001A821 /* Store */ = {
 			isa = PBXGroup;
 			children = (
-				3D51DDDB22F599A20001A821 /* PlacesScene */,
+				3D51DDE922F5A19A0001A821 /* PlaceStore.swift */,
+				3D51DDED22F5A2940001A821 /* RemotePlaceStore.swift */,
+				3DC3750422F715F800F2FF31 /* PlaceApiEnvironment.swift */,
+				3D51DDF122F5A72B0001A821 /* RemotePlaceURLBuilder.swift */,
+				3D51DDEB22F5A24C0001A821 /* PlaceModel.swift */,
+				3DC374FF22F6F83100F2FF31 /* APIJsonObject.swift */,
+				3D51DDEF22F5A6B60001A821 /* PlaceModelParser.swift */,
 			);
-			path = Scenes;
+			name = Store;
+			path = ../Adyen/Scenes/PlacesScene/Store;
 			sourceTree = "<group>";
 		};
-		3D51DDDB22F599A20001A821 /* PlacesScene */ = {
+		3DC3750C22F7664400F2FF31 /* LocationProvider */ = {
+			isa = PBXGroup;
+			children = (
+				3D0ACC2522F5D9AA00AFB158 /* LocationProvider.swift */,
+				3D0ACC2722F5D9E200AFB158 /* DefaultLocationProvider.swift */,
+			);
+			path = LocationProvider;
+			sourceTree = "<group>";
+		};
+		3DC3751C22F7694700F2FF31 /* ClientAPI */ = {
+			isa = PBXGroup;
+			children = (
+				3D51DDDD22F599D70001A821 /* RequestExecuter.swift */,
+				3D51DDDF22F59AC00001A821 /* URLSession+RequestExecuter.swift */,
+				3DC3752A22F76BCE00F2FF31 /* ClientAPI.swift */,
+				3D51DDE522F59D320001A821 /* DefaultAPIClient.swift */,
+				3D51DDE322F59C8F0001A821 /* APIResource.swift */,
+			);
+			path = ClientAPI;
+			sourceTree = "<group>";
+		};
+		3DC3753122F76C1900F2FF31 /* PlacesScene */ = {
 			isa = PBXGroup;
 			children = (
 				3DCB3D9622F5B2AC00EED25D /* View */,
@@ -267,43 +364,14 @@
 			path = PlacesScene;
 			sourceTree = "<group>";
 		};
-		3D51DDDC22F599B40001A821 /* ClientAPI */ = {
-			isa = PBXGroup;
-			children = (
-				3D51DDDD22F599D70001A821 /* RequestExecuter.swift */,
-				3D0ACC5222F6203700AFB158 /* RequestExecuterMock.swift */,
-				3D51DDDF22F59AC00001A821 /* URLSession+RequestExecuter.swift */,
-				3D51DDE122F59C560001A821 /* APIClient.swift */,
-				3D0ACC3E22F6094300AFB158 /* APIClientMock.swift */,
-				3D51DDE522F59D320001A821 /* DefaultAPIClient.swift */,
-				3D51DDE322F59C8F0001A821 /* APIResource.swift */,
-			);
-			path = ClientAPI;
-			sourceTree = "<group>";
-		};
-		3D51DDE822F5A1770001A821 /* Store */ = {
-			isa = PBXGroup;
-			children = (
-				3D51DDE922F5A19A0001A821 /* PlaceStore.swift */,
-				3D0ACC2E22F6017200AFB158 /* PlaceStoreMock.swift */,
-				3D51DDED22F5A2940001A821 /* RemotePlaceStore.swift */,
-				3DC3750422F715F800F2FF31 /* PlaceApiEnvironment.swift */,
-				3D51DDF122F5A72B0001A821 /* RemotePlaceURLBuilder.swift */,
-				3D51DDEB22F5A24C0001A821 /* PlaceModel.swift */,
-				3DC374FF22F6F83100F2FF31 /* APIJsonObject.swift */,
-				3D51DDEF22F5A6B60001A821 /* PlaceModelParser.swift */,
-			);
-			path = Store;
-			sourceTree = "<group>";
-		};
 		3DCB3D9022F5AD7100EED25D /* PlacesViewModel */ = {
 			isa = PBXGroup;
 			children = (
 				3DCB3D9122F5AD8800EED25D /* PlacesViewModel.swift */,
-				3D0ACC4C22F615AA00AFB158 /* PlacesViewModelMock.swift */,
 				3DCB3D9422F5AE2200EED25D /* DefaultPlacesViewModel.swift */,
 			);
-			path = PlacesViewModel;
+			name = PlacesViewModel;
+			path = ../Adyen/Scenes/PlacesScene/PlacesViewModel;
 			sourceTree = "<group>";
 		};
 		3DCB3D9622F5B2AC00EED25D /* View */ = {
@@ -311,14 +379,16 @@
 			children = (
 				3DCB3D9722F5B2C000EED25D /* PlacesViewController.swift */,
 			);
-			path = View;
+			name = View;
+			path = ../Adyen/Scenes/PlacesScene/View;
 			sourceTree = "<group>";
 		};
-		66AD19EBAEAB8E6173DE1041 /* Frameworks */ = {
+		7FE61A4230E6F711C20EF12A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DD5EBB72DCF09E5A34E91980 /* libPods-Adyen.a */,
-				D7BDB955551F9CE6FC39F81D /* libPods-AdyenTests.a */,
+				8194A0D044F8FD19EB88EB3D /* libPods-Adyen.a */,
+				994BE41E5CB74A25A84EEFCE /* libPods-AdyenTests.a */,
+				A10F20F1404AF9FB93A1D99A /* libPods-PlacesScene.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -326,10 +396,12 @@
 		ACFE68F81532227D31CE3962 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				831125F30964A30F12537B8D /* Pods-Adyen.debug.xcconfig */,
-				D30ED64B6CA0D916F2B7CDD4 /* Pods-Adyen.release.xcconfig */,
-				F707F71BDEE0E99E748C2AD4 /* Pods-AdyenTests.debug.xcconfig */,
-				C4ACC7AEAC03D4C0353756EA /* Pods-AdyenTests.release.xcconfig */,
+				A1A8A4B929DAD7A8E2F08705 /* Pods-Adyen.debug.xcconfig */,
+				3977A60520E1C130F0E3A7E9 /* Pods-Adyen.release.xcconfig */,
+				B7CBB0B8B8DA7DBFC15E323B /* Pods-AdyenTests.debug.xcconfig */,
+				BBCD0205254E4A41B488997F /* Pods-AdyenTests.release.xcconfig */,
+				4E773B8FBB49F87D4012AC1F /* Pods-PlacesScene.debug.xcconfig */,
+				606845F802DC0E3ABE3087E7 /* Pods-PlacesScene.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -341,7 +413,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D51DDD422F599860001A821 /* Build configuration list for PBXNativeTarget "Adyen" */;
 			buildPhases = (
-				95DD5FCE2D2D224935DEDC68 /* [CP] Check Pods Manifest.lock */,
+				CD87C1677FE817F596418DBE /* [CP] Check Pods Manifest.lock */,
 				3D51DDB322F599840001A821 /* Sources */,
 				3D51DDB422F599840001A821 /* Frameworks */,
 				3D51DDB522F599840001A821 /* Resources */,
@@ -349,6 +421,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				3DC3754F22F772A100F2FF31 /* PBXTargetDependency */,
 			);
 			name = Adyen;
 			productName = Adyen;
@@ -359,7 +432,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D51DDD722F599860001A821 /* Build configuration list for PBXNativeTarget "AdyenTests" */;
 			buildPhases = (
-				6366782EACA011D3DB569482 /* [CP] Check Pods Manifest.lock */,
+				14A15E3AD8AC05202866BDCF /* [CP] Check Pods Manifest.lock */,
 				3D51DDC722F599860001A821 /* Sources */,
 				3D51DDC822F599860001A821 /* Frameworks */,
 				3D51DDC922F599860001A821 /* Resources */,
@@ -373,6 +446,60 @@
 			productName = AdyenTests;
 			productReference = 3D51DDCB22F599860001A821 /* AdyenTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DC3750A22F7664400F2FF31 /* LocationProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC3750F22F7664400F2FF31 /* Build configuration list for PBXNativeTarget "LocationProvider" */;
+			buildPhases = (
+				3DC3750722F7664400F2FF31 /* Sources */,
+				3DC3750822F7664400F2FF31 /* Frameworks */,
+				3DC3750922F7664400F2FF31 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocationProvider;
+			productName = LocationProvider;
+			productReference = 3DC3750B22F7664400F2FF31 /* libLocationProvider.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3DC3751A22F7694700F2FF31 /* ClientAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC3751F22F7694700F2FF31 /* Build configuration list for PBXNativeTarget "ClientAPI" */;
+			buildPhases = (
+				3DC3751722F7694700F2FF31 /* Sources */,
+				3DC3751822F7694700F2FF31 /* Frameworks */,
+				3DC3751922F7694700F2FF31 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClientAPI;
+			productName = ClientAPI;
+			productReference = 3DC3751B22F7694700F2FF31 /* libClientAPI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3DC3752F22F76C1900F2FF31 /* PlacesScene */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC3753422F76C1900F2FF31 /* Build configuration list for PBXNativeTarget "PlacesScene" */;
+			buildPhases = (
+				476098BF604A4AB37697575B /* [CP] Check Pods Manifest.lock */,
+				3DC3752C22F76C1900F2FF31 /* Sources */,
+				3DC3752D22F76C1900F2FF31 /* Frameworks */,
+				3DC3752E22F76C1900F2FF31 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DC3754B22F7721400F2FF31 /* PBXTargetDependency */,
+				3DC3754D22F7721400F2FF31 /* PBXTargetDependency */,
+			);
+			name = PlacesScene;
+			productName = PlacesScene;
+			productReference = 3DC3753022F76C1900F2FF31 /* libPlacesScene.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -391,6 +518,15 @@
 						CreatedOnToolsVersion = 10.3;
 						TestTargetID = 3D51DDB622F599840001A821;
 					};
+					3DC3750A22F7664400F2FF31 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					3DC3751A22F7694700F2FF31 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					3DC3752F22F76C1900F2FF31 = {
+						CreatedOnToolsVersion = 10.3;
+					};
 				};
 			};
 			buildConfigurationList = 3D51DDB222F599840001A821 /* Build configuration list for PBXProject "Adyen" */;
@@ -408,6 +544,9 @@
 			targets = (
 				3D51DDB622F599840001A821 /* Adyen */,
 				3D51DDCA22F599860001A821 /* AdyenTests */,
+				3DC3750A22F7664400F2FF31 /* LocationProvider */,
+				3DC3751A22F7694700F2FF31 /* ClientAPI */,
+				3DC3752F22F76C1900F2FF31 /* PlacesScene */,
 			);
 		};
 /* End PBXProject section */
@@ -435,7 +574,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6366782EACA011D3DB569482 /* [CP] Check Pods Manifest.lock */ = {
+		14A15E3AD8AC05202866BDCF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -457,7 +596,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		95DD5FCE2D2D224935DEDC68 /* [CP] Check Pods Manifest.lock */ = {
+		476098BF604A4AB37697575B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlacesScene-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD87C1677FE817F596418DBE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -486,25 +647,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DC3750522F715F800F2FF31 /* PlaceApiEnvironment.swift in Sources */,
-				3DCB3D9522F5AE2200EED25D /* DefaultPlacesViewModel.swift in Sources */,
-				3DC3750022F6F83100F2FF31 /* APIJsonObject.swift in Sources */,
 				3D51DDBD22F599840001A821 /* RootViewController.swift in Sources */,
-				3D0ACC2822F5D9E200AFB158 /* DefaultLocationProvider.swift in Sources */,
-				3D51DDEA22F5A19A0001A821 /* PlaceStore.swift in Sources */,
-				3D51DDF022F5A6B60001A821 /* PlaceModelParser.swift in Sources */,
-				3D51DDDE22F599D70001A821 /* RequestExecuter.swift in Sources */,
-				3D0ACC2622F5D9AA00AFB158 /* LocationProvider.swift in Sources */,
-				3D51DDE022F59AC00001A821 /* URLSession+RequestExecuter.swift in Sources */,
-				3D51DDE222F59C560001A821 /* APIClient.swift in Sources */,
-				3D51DDE422F59C8F0001A821 /* APIResource.swift in Sources */,
 				3D51DDBB22F599840001A821 /* AppDelegate.swift in Sources */,
-				3D51DDEC22F5A24C0001A821 /* PlaceModel.swift in Sources */,
-				3D51DDE622F59D320001A821 /* DefaultAPIClient.swift in Sources */,
-				3DCB3D9222F5AD8800EED25D /* PlacesViewModel.swift in Sources */,
-				3DCB3D9822F5B2C000EED25D /* PlacesViewController.swift in Sources */,
-				3D51DDF222F5A72B0001A821 /* RemotePlaceURLBuilder.swift in Sources */,
-				3D51DDEE22F5A2940001A821 /* RemotePlaceStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,32 +656,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D0ACC3622F607F200AFB158 /* PlacesViewModel.swift in Sources */,
 				3D0ACC2C22F6012100AFB158 /* DefaultPlacesViewModelTest.swift in Sources */,
-				3D0ACC3122F6019900AFB158 /* PlaceModel.swift in Sources */,
-				3D0ACC3D22F6093300AFB158 /* RemotePlaceURLBuilder.swift in Sources */,
 				3D0ACC4A22F6156D00AFB158 /* PlacesViewControllerTest.swift in Sources */,
 				3D0ACC3A22F6090100AFB158 /* RemotePlaceStoreTest.swift in Sources */,
-				3DC3750622F715F800F2FF31 /* PlaceApiEnvironment.swift in Sources */,
-				3D0ACC3522F6029300AFB158 /* LocationProvider.swift in Sources */,
 				3D0ACC4322F60EA500AFB158 /* RemotePlaceURLBuilderTest.swift in Sources */,
 				3D0ACC3422F6028500AFB158 /* LocationProviderMock.swift in Sources */,
-				3D0ACC2D22F6014C00AFB158 /* DefaultPlacesViewModel.swift in Sources */,
 				3D0ACC3F22F6094300AFB158 /* APIClientMock.swift in Sources */,
 				3D0ACC4522F612D600AFB158 /* PlaceModelParserTest.swift in Sources */,
-				3D0ACC3222F601A400AFB158 /* RequestExecuter.swift in Sources */,
-				3D0ACC4122F60BF900AFB158 /* PlaceModelParser.swift in Sources */,
-				3D0ACC4B22F6158300AFB158 /* PlacesViewController.swift in Sources */,
-				3D0ACC3C22F6091200AFB158 /* APIClient.swift in Sources */,
 				3D0ACC2F22F6017200AFB158 /* PlaceStoreMock.swift in Sources */,
-				3D0ACC5122F6200B00AFB158 /* DefaultAPIClient.swift in Sources */,
-				3DC3750122F6F83100F2FF31 /* APIJsonObject.swift in Sources */,
-				3D0ACC3022F6018600AFB158 /* PlaceStore.swift in Sources */,
 				3D0ACC5022F61FF900AFB158 /* DefaultAPIClientTest.swift in Sources */,
 				3D0ACC5322F6203700AFB158 /* RequestExecuterMock.swift in Sources */,
-				3D0ACC4022F6096500AFB158 /* APIResource.swift in Sources */,
 				3D0ACC4D22F615AA00AFB158 /* PlacesViewModelMock.swift in Sources */,
-				3D0ACC3B22F6090900AFB158 /* RemotePlaceStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC3750722F7664400F2FF31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC3751222F7666F00F2FF31 /* LocationProvider.swift in Sources */,
+				3DC3751322F7667B00F2FF31 /* DefaultLocationProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC3751722F7694700F2FF31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC3752322F7696300F2FF31 /* URLSession+RequestExecuter.swift in Sources */,
+				3DC3752222F7695C00F2FF31 /* RequestExecuter.swift in Sources */,
+				3DC3752B22F76BCE00F2FF31 /* ClientAPI.swift in Sources */,
+				3DC3752622F7697400F2FF31 /* APIResource.swift in Sources */,
+				3DC3752522F7696F00F2FF31 /* DefaultAPIClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC3752C22F76C1900F2FF31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC3754522F76E1100F2FF31 /* PlaceApiEnvironment.swift in Sources */,
+				3DC3754822F76E1F00F2FF31 /* APIJsonObject.swift in Sources */,
+				3DC3754922F76E2300F2FF31 /* PlaceModelParser.swift in Sources */,
+				3DC3754722F76E1B00F2FF31 /* PlaceModel.swift in Sources */,
+				3DC3753922F76C3A00F2FF31 /* PlacesViewModel.swift in Sources */,
+				3DC3754322F76E0500F2FF31 /* PlaceStore.swift in Sources */,
+				3DC3754622F76E1600F2FF31 /* RemotePlaceURLBuilder.swift in Sources */,
+				3DC3754422F76E0C00F2FF31 /* RemotePlaceStore.swift in Sources */,
+				3DC3753822F76C3500F2FF31 /* PlacesViewController.swift in Sources */,
+				3DC3753A22F76C4200F2FF31 /* DefaultPlacesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +715,21 @@
 			isa = PBXTargetDependency;
 			target = 3D51DDB622F599840001A821 /* Adyen */;
 			targetProxy = 3D51DDCC22F599860001A821 /* PBXContainerItemProxy */;
+		};
+		3DC3754B22F7721400F2FF31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DC3750A22F7664400F2FF31 /* LocationProvider */;
+			targetProxy = 3DC3754A22F7721400F2FF31 /* PBXContainerItemProxy */;
+		};
+		3DC3754D22F7721400F2FF31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DC3751A22F7694700F2FF31 /* ClientAPI */;
+			targetProxy = 3DC3754C22F7721400F2FF31 /* PBXContainerItemProxy */;
+		};
+		3DC3754F22F772A100F2FF31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DC3752F22F76C1900F2FF31 /* PlacesScene */;
+			targetProxy = 3DC3754E22F772A100F2FF31 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -689,7 +871,7 @@
 		};
 		3D51DDD522F599860001A821 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 831125F30964A30F12537B8D /* Pods-Adyen.debug.xcconfig */;
+			baseConfigurationReference = A1A8A4B929DAD7A8E2F08705 /* Pods-Adyen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -709,7 +891,7 @@
 		};
 		3D51DDD622F599860001A821 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D30ED64B6CA0D916F2B7CDD4 /* Pods-Adyen.release.xcconfig */;
+			baseConfigurationReference = 3977A60520E1C130F0E3A7E9 /* Pods-Adyen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -729,7 +911,7 @@
 		};
 		3D51DDD822F599860001A821 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F707F71BDEE0E99E748C2AD4 /* Pods-AdyenTests.debug.xcconfig */;
+			baseConfigurationReference = B7CBB0B8B8DA7DBFC15E323B /* Pods-AdyenTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -751,7 +933,7 @@
 		};
 		3D51DDD922F599860001A821 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4ACC7AEAC03D4C0353756EA /* Pods-AdyenTests.release.xcconfig */;
+			baseConfigurationReference = BBCD0205254E4A41B488997F /* Pods-AdyenTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -768,6 +950,92 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adyen.app/Adyen";
+			};
+			name = Release;
+		};
+		3DC3751022F7664400F2FF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 656PJL646M;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DC3751122F7664400F2FF31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 656PJL646M;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DC3752022F7694700F2FF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 656PJL646M;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DC3752122F7694700F2FF31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 656PJL646M;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DC3753522F76C1900F2FF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E773B8FBB49F87D4012AC1F /* Pods-PlacesScene.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 656PJL646M;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DC3753622F76C1900F2FF31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 606845F802DC0E3ABE3087E7 /* Pods-PlacesScene.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 656PJL646M;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -797,6 +1065,33 @@
 			buildConfigurations = (
 				3D51DDD822F599860001A821 /* Debug */,
 				3D51DDD922F599860001A821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC3750F22F7664400F2FF31 /* Build configuration list for PBXNativeTarget "LocationProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC3751022F7664400F2FF31 /* Debug */,
+				3DC3751122F7664400F2FF31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC3751F22F7694700F2FF31 /* Build configuration list for PBXNativeTarget "ClientAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC3752022F7694700F2FF31 /* Debug */,
+				3DC3752122F7694700F2FF31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC3753422F76C1900F2FF31 /* Build configuration list for PBXNativeTarget "PlacesScene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC3753522F76C1900F2FF31 /* Debug */,
+				3DC3753622F76C1900F2FF31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

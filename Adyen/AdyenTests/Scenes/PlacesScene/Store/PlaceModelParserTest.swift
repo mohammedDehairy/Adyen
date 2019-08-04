@@ -8,6 +8,7 @@
 
 import XCTest
 import CoreLocation
+import PlacesScene
 
 class PlaceModelParserTest: XCTestCase {
 

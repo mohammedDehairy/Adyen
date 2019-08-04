@@ -8,6 +8,8 @@
 
 import XCTest
 import MapKit
+import ClientAPI
+import PlacesScene
 
 enum ErrorMock: LocalizedError, Equatable {
     case anyError

@@ -8,6 +8,7 @@
 
 import XCTest
 import MapKit
+import PlacesScene
 
 class RemotePlaceURLBuilderTest: XCTestCase {
     var sut: RemotePlaceURLBuilder!

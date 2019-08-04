@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import LocationProvider
+import ClientAPI
+import PlacesScene
 
 class RootViewController: UIViewController {
-    lazy var clientApi: APIClient = {
+    lazy var clientApi: ClientAPI = {
         return DefaultAPIClient(executer: URLSession.shared)
     }()
     

@@ -8,6 +8,8 @@
 
 import XCTest
 import MapKit
+import ClientAPI
+import PlacesScene
 
 class DefaultAPIClientTest: XCTestCase {
     var sut: DefaultAPIClient!

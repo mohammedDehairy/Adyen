@@ -8,6 +8,8 @@
 
 import XCTest
 import MapKit
+import ClientAPI
+import PlacesScene
 
 class RemotePlaceStoreTest: XCTestCase {
     var sut: RemotePlaceStore!

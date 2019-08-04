@@ -6,5 +6,9 @@ target 'Adyen' do
   target 'AdyenTests' do
     inherit! :search_paths
   end
+  
+  target 'PlacesScene' do
+    inherit! :search_paths
+  end
 
 end

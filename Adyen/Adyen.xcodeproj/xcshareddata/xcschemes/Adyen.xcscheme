@@ -20,6 +20,48 @@
                ReferencedContainer = "container:Adyen.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3DC3750A22F7664400F2FF31"
+               BuildableName = "libLocationProvider.a"
+               BlueprintName = "LocationProvider"
+               ReferencedContainer = "container:Adyen.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3DC3751A22F7694700F2FF31"
+               BuildableName = "libClientAPI.a"
+               BlueprintName = "ClientAPI"
+               ReferencedContainer = "container:Adyen.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3DC3752F22F76C1900F2FF31"
+               BuildableName = "libPlacesScene.a"
+               BlueprintName = "PlacesScene"
+               ReferencedContainer = "container:Adyen.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
