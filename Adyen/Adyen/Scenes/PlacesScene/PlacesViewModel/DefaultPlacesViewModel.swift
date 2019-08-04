@@ -17,12 +17,12 @@ final class DefaultPlacesViewModel: PlacesViewModel {
     var updateModel: ((Result<[PlaceModel], Error>) -> Void)?
     var updateUserLocation: ((CLLocation) -> Void)? {
         didSet {
+            locationProvider.updateUserLocation = updateUserLocation
             if updateUserLocation != nil {
                 locationProvider.startUpdateLocation()
             } else {
                 locationProvider.stopUpdateLocation()
             }
-            locationProvider.updateUserLocation = updateUserLocation
         }
     }
     
